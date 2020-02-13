@@ -4,11 +4,11 @@ class FileUploadPage {
         return browser.url('/upload');
     }
 
-    get fileUploadInput() {
+    private get fileUploadInput() {
         return $('#file-upload');
     }
 
-    get submitFileUpload() {
+    private get submitFileUpload() {
         return $('#file-submit');
     }
 
