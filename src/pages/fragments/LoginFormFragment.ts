@@ -21,7 +21,7 @@ export class LoginFormFragment {
         return this.container.$('button.radius');
     }
 
-    loginWithCredentials(username: string, password: string) {
+    loginWith(username: string, password: string) {
         this.username.setValue(username);
         this.password.setValue(password);
         this.submit.click();
