@@ -5,4 +5,4 @@ export class FlashMessageFragment {
     }
 }
 
-export default new FlashMessageFragment();``
+export default new FlashMessageFragment();

@@ -16,7 +16,7 @@ class FileUploadPage {
         return $('h3').getText().trim();
     }
 
-    uploadFile(filePath: String) {
+    uploadFile(filePath: String): void {
         this.fileUploadInput.setValue(filePath);
         this.submitFileUpload.click();
     }
