@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i '' "s|mount|$(pwd)|g" browsers.json
+find . -name "browsers.json" -exec sed -i "" "s|mount|$(pwd)|g" {} \;
