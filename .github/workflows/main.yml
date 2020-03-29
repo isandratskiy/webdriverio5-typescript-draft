@@ -1,4 +1,4 @@
-name: Autotests on Selenoid
+name: Running UI-Automation Tests
 
 on: [push]
 
