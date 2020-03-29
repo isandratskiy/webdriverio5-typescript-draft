@@ -8,14 +8,14 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
+      - name: Install npm dependencies
+        run: npm install
+
       - name: Set workdir to browsers.json as mount
         run: make workdir
 
       - name: Set up Selenoid Infrastructure
         run: make start
-          
-      - name: Install npm dependencies
-        run: npm install
 
       - name: Run UI-Automation tests with Chrome browser
         env:
