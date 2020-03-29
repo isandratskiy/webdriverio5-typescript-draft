@@ -8,4 +8,5 @@ stop:
 	docker rmi selenoid/vnc:chrome_80.0
 workdir:
 	\
-	./replace_mount_pwd.sh
+	sed -i "" -e "s|mount|$(pwd)|g" "browsers.json" && \
+    cat browsers.json
