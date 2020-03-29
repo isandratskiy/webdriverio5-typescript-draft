@@ -12,7 +12,8 @@ jobs:
         run: make workdir
 
       - name: Set up Selenoid Infrastructure
-        run: make start
+        run: make start |
+          npm install
 
       - name: Run UI-Automation tests with Chrome browser
         env:
