@@ -1,3 +1,6 @@
 #!/bin/bash
-find . -name 'browsers.json' -exec sed -i '' "s|mount|$(pwd)|g" '{}' \;
+#sed -i '' "s/mount/$(pwd)/g"
+WORKDIR=$(pwd)
+CONFIG="./browsers.json"
+find "${CONFIG}" -type f -exec sed -i "" "s|mount|${WORKDIR}|g" {} \;
 cat browsers.json
