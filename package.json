@@ -20,6 +20,8 @@
     "@wdio/selenium-standalone-service": "^5.16.10",
     "@wdio/spec-reporter": "^5.16.11",
     "@wdio/sync": "^5.17.0",
+    "chromedriver": "^80.0.1",
+    "wdio-chromedriver-service": "^5.0.2",
     "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",
     "mocha": "^5.2.0",

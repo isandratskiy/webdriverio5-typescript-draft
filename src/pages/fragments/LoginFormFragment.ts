@@ -1,5 +1,5 @@
 export class LoginFormFragment {
-    private containerLocator: string
+    private containerLocator: string;
 
     constructor(containerLocator: string) {
         this.containerLocator = containerLocator;
@@ -9,15 +9,15 @@ export class LoginFormFragment {
         return $(this.containerLocator);
     }
 
-    get username() {
+    private get username() {
         return this.container.$('#username');
     }
 
-    get password() {
+    private get password() {
         return this.container.$('#password');
     }
 
-    get submit() {
+    private get submit() {
         return this.container.$('button.radius');
     }
 

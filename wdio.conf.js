@@ -1,6 +1,6 @@
 const timeout = process.env.DEBUG ? 99999999 : 30000;
 
-exports.config = {
+const wdioConfig = {
     //
     // ====================
     // Runner Configuration
@@ -9,7 +9,8 @@ exports.config = {
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
     runner: 'local',
-
+    // Override default path ('/wd/hub') for chromedriver service.
+    path: '/',
     //
     // ==================
     // Specify Test Files
@@ -55,7 +56,23 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 1,
         //
-        browserName: 'chrome'
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+            useAutomationExtension: false,
+            excludeSwitches: ['enable-automation'],
+            prefs: {
+                credentials_enable_service: false,
+                'profile.password_manager_enabled': false
+            },
+            args: [
+                'disable-infobars',
+                '--disable-gpu',
+                '--no-sandbox',
+                '--disable-extensions',
+                '--disable-dev-shm-usage',
+                //'--headless',
+            ]
+        }
     }],
     //
     // ===================
@@ -93,7 +110,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
+    services: ["chromedriver"],
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks.html
@@ -106,16 +123,16 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: ['spec', ['allure', {
-      outputDir: 'allure-results',
-      disableWebdriverStepsReporting: true,
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
     }]],
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
-      compilers: [
-        'tsconfig-paths/register'
-      ],
+        compilers: [
+            'tsconfig-paths/register'
+        ],
         ui: 'bdd',
         timeout: timeout
     },
@@ -150,7 +167,7 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
     before: function (capabilities, specs) {
-      require('ts-node').register({ files: true });
+        require('ts-node').register({files: true});
     },
     /**
      * Runs before a WebdriverIO command gets executed.
@@ -189,9 +206,9 @@ exports.config = {
      * @param {Object} test test details
      */
     afterTest: function (test) {
-      if (test.error !== undefined) {
-        browser.takeScreenshot();
-      }
+        if (test.error !== undefined) {
+            browser.takeScreenshot();
+        }
     },
     /**
      * Hook that gets executed after the suite has ended
@@ -235,4 +252,13 @@ exports.config = {
      */
     // onComplete: function(exitCode, config, capabilities, results) {
     // }
-}
+};
+
+if (process.env.SELENOID) {
+    wdioConfig.services = undefined;
+    wdioConfig.hostname = process.env.SELENOID;
+    wdioConfig.port = 4444;
+    wdioConfig.path = "/wd/hub";
+} else wdioConfig.services = ["chromedriver"];
+
+exports.config = wdioConfig;

@@ -1,3 +1,4 @@
 export function path(fileName = 'hello_world.txt') {
-    return __dirname + '/' + fileName;
+    if (process.env.SELENOID) return "/home/uploads/" + fileName;
+    else return __dirname + '/' + fileName;
 }

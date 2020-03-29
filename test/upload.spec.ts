@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import {path} from "src/resources";
+import { path } from "src/resources";
 import FileUploadPage from "src/pages/FileUploadPage";
 
 describe('File upload', () => {

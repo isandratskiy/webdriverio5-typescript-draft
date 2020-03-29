@@ -1,0 +1,23 @@
+name: Autotests on Selenoid
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Set workdir to browsers.json as mount
+        run: make workdir
+
+      - name: Set up Selenoid Infrastructure
+        run: make start
+
+      - name: Run UI-Automation tests with Chrome browser
+        env:
+          SELENOID: '0.0.0.0'
+        run: make test
+
+      - name: Shutdown Selenoid Infrastructure
+        run: make stop

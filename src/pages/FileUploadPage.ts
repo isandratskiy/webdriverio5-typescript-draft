@@ -1,5 +1,4 @@
 class FileUploadPage {
-
     get open() {
         return browser.url('/upload');
     }
@@ -20,7 +19,6 @@ class FileUploadPage {
         this.fileUploadInput.setValue(filePath);
         this.submitFileUpload.click();
     }
-
 }
 
 export default new FileUploadPage();

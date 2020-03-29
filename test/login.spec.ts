@@ -3,7 +3,7 @@ import LoginPage from "src/pages/LoginPage";
 import FlashMessageFragment from "src/pages/fragments/FlashMessageFragment";
 import SecurePage from "src/pages/SecurePage";
 
-describe("Login Form Authentication", () => {
+describe("Form Authentication", () => {
 	it('should login with valid credentials', () => {
 		LoginPage.open;
 		LoginPage.loginFormFragment.loginWith('tomsmith', 'SuperSecretPassword!');

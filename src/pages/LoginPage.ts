@@ -1,7 +1,7 @@
 import { LoginFormFragment } from "src/pages/fragments/LoginFormFragment";
 
 class LoginPage {
-    public loginFormFragment: LoginFormFragment;
+    loginFormFragment: LoginFormFragment;
 
     constructor() {
         this.loginFormFragment = new LoginFormFragment('form#login');
