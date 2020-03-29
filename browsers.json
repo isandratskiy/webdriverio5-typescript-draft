@@ -10,7 +10,7 @@
           "/tmp": "size=512m"
         },
         "volumes": [
-          "mount/src/resources:/etc/selenoid/chrome"
+          "mount/src/resources:/home/uploads"
         ]
       }
     }
