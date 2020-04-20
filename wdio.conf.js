@@ -206,6 +206,7 @@ const wdioConfig = {
      * @param {Object} test test details
      */
     afterTest: function (test) {
+        browser.reloadSession();
         if (test.error !== undefined) {
             browser.takeScreenshot();
         }
