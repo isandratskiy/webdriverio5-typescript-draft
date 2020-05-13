@@ -29,13 +29,13 @@ const wdioConfig = {
                     '--no-sandbox',
                     '--disable-extensions',
                     '--disable-dev-shm-usage',
-                    '--headless',
+                    //'--headless',
 
                 ]
             }
         }
     ],
-    logLevel: 'silent',
+    logLevel: 'info',
     deprecationWarnings: true,
     bail: 0,
     baseUrl: 'http://the-internet.herokuapp.com',
