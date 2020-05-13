@@ -12,7 +12,6 @@ describe("Form Authentication", () => {
 
 	it('should login with valid credentials', () => {
 		LoginPage.loginFormFragment.loginWith('tomsmith', 'SuperSecretPassword!');
-
 		expect(SecurePage.flashMessage).to.contain('You logged into a secure area!');
 	});
 
