@@ -35,7 +35,7 @@ const wdioConfig = {
             }
         }
     ],
-    logLevel: 'info',
+    logLevel: 'silent',
     deprecationWarnings: true,
     bail: 0,
     baseUrl: 'http://the-internet.herokuapp.com',
