@@ -1,4 +1,4 @@
-import { expect } from "chai";
+import {expect} from "chai";
 import WindowsPage from "src/pages/WindowsPage";
 
 describe("Windows page", () => {
