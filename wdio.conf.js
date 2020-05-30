@@ -29,7 +29,7 @@ const wdioConfig = {
                     '--no-sandbox',
                     '--disable-extensions',
                     '--disable-dev-shm-usage',
-                    //'--headless',
+                    '--headless',
 
                 ]
             }

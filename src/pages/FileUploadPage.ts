@@ -1,4 +1,5 @@
 class FileUploadPage {
+
     get open() {
         return browser.url('/upload');
     }

@@ -1,6 +1,6 @@
 {
   "name": "webdriverio_practice",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "description": "WebDriverIO practice project",
   "scripts": {
     "test": "wdio",
@@ -21,7 +21,7 @@
     "@wdio/selenium-standalone-service": "^5.16.10",
     "@wdio/spec-reporter": "^5.22.4",
     "@wdio/sync": "^5.20.1",
-    "chromedriver": "^81.0.0",
+    "chromedriver": "^83.0.0",
     "wdio-chromedriver-service": "^5.0.2",
     "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",

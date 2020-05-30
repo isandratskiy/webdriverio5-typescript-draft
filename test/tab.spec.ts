@@ -15,5 +15,4 @@ describe("Windows page", () => {
     it("should contain 'New Window' title", () => {
         expect($("h3").getText()).to.equal("New Window");
     });
-
 });

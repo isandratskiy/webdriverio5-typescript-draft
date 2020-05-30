@@ -3,11 +3,11 @@ class WindowsPage {
         return browser.url("/windows");
     }
 
-    public get openWindowsTab() {
+    get openWindowsTab() {
         return $("[href*='windows']").click();
     }
 
-    public get switchTab() {
+    get switchTab() {
         let window = browser.getWindowHandles()[1];
         return browser.switchToWindow(window)
     }
