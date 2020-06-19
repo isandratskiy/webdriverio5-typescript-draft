@@ -1,6 +1,8 @@
+
 class WindowsPage {
+
     get open() {
-        return browser.url("/windows");
+        return browser.url('/windows');
     }
 
     get openWindowsTab() {
@@ -8,8 +10,8 @@ class WindowsPage {
     }
 
     get switchTab() {
-        let window = browser.getWindowHandles()[1];
-        return browser.switchToWindow(window)
+        const window = browser.getWindowHandles()[1];
+        return browser.switchToWindow(window);
     }
 }
 

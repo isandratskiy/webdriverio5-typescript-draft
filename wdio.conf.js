@@ -12,7 +12,7 @@ const wdioConfig = {
     ],
     capabilities: [
         {
-            maxInstances: 1,
+            maxInstances: 5,
             browserName: 'chrome',
             'goog:chromeOptions': {
                 useAutomationExtension: false,
@@ -24,50 +24,39 @@ const wdioConfig = {
                     'profile.password_manager_enabled': false
                 },
                 args: [
-                    'disable-infobars',
+                    '--disable-infobars',
                     '--disable-gpu',
                     '--no-sandbox',
                     '--disable-extensions',
-                    '--disable-dev-shm-usage',
-                    '--headless',
-
+                    '--disable-dev-shm-usage'
                 ]
             }
         }
     ],
-    logLevel: 'silent',
+    logLevel: 'error',
     deprecationWarnings: true,
     bail: 0,
     baseUrl: 'http://the-internet.herokuapp.com',
     waitforTimeout: 10000,
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
-    services: [
-        "chromedriver"
-    ],
+    services: ['chromedriver'],
     framework: 'mocha',
-    reporters: [
-        'spec',
-        [
-            'allure',
-            {
-                outputDir: 'allure-results',
-                disableWebdriverStepsReporting: true,
-            }
-        ]
-    ],
+    reporters: ['spec', ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+    }]],
     mochaOpts: {
-        compilers: [
-            'tsconfig-paths/register'
-        ],
+        require: 'ts-node/register',
+        compilers: ['tsconfig-paths/register'],
         ui: 'bdd',
         timeout: timeout
     },
-    before: function (capabilities, specs) {
+    /*before: function (capabilities, specs) {
         require('ts-node').register({
             files: true
         });
-    },
+    },*/
     afterTest: function (test) {
         if (test.error !== undefined) {
             browser.takeScreenshot();
@@ -81,6 +70,6 @@ if (process.env.SELENOID) {
     wdioConfig.hostname = process.env.SELENOID;
     wdioConfig.port = 4444;
     wdioConfig.path = "/wd/hub";
-} else wdioConfig.services = ["chromedriver"];
+} else wdioConfig.services = ['chromedriver'];
 
 exports.config = wdioConfig;

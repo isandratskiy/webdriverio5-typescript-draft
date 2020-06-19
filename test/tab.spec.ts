@@ -1,18 +1,18 @@
-import {expect} from "chai";
-import WindowsPage from "src/pages/WindowsPage";
+import {expect} from 'chai';
+import WindowsPage from 'src/pages/WindowsPage';
 
-describe("Windows page", () => {
-    beforeEach(() => {
+describe('Windows page', () => {
+    it('should open new window tab after click', () => {
         WindowsPage.open;
         WindowsPage.openWindowsTab;
         WindowsPage.switchTab;
-    });
-
-    it("should open new window tab after click", () => {
-        expect(browser.getTitle()).contain("New Window");
+        expect(browser.getTitle()).contain('New Window');
     });
 
     it("should contain 'New Window' title", () => {
-        expect($("h3").getText()).to.equal("New Window");
+        WindowsPage.open;
+        WindowsPage.openWindowsTab;
+        WindowsPage.switchTab;
+        expect($('h3').getText()).to.equal('New Window');
     });
 });

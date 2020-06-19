@@ -1,4 +1,4 @@
-import { LoginFormFragment } from "src/pages/fragments/LoginFormFragment";
+import { LoginFormFragment } from 'src/pages/fragments/LoginFormFragment';
 
 class LoginPage {
     loginFormFragment: LoginFormFragment;

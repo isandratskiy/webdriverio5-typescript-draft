@@ -1,3 +1,5 @@
+import allureReporter from '@wdio/allure-reporter';
+
 export class LoginFormFragment {
     private containerLocator: string;
 
@@ -21,7 +23,8 @@ export class LoginFormFragment {
         return this.container.$('button.radius');
     }
 
-    loginWith(username: string, password: string): void {
+    loginWith(username: string, password: string) {
+        allureReporter.addStep(`Login as: ${username} with password: ${password}`);
         this.username.setValue(username);
         this.password.setValue(password);
         this.submit.click();

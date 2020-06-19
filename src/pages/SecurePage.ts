@@ -1,4 +1,4 @@
-import { FlashMessageFragment } from "./fragments/FlashMessageFragment";
+import { FlashMessageFragment } from './fragments/FlashMessageFragment';
 
 class SecurePage {
     get flashMessage(): string {
