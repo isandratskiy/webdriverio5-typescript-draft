@@ -45,6 +45,7 @@ const wdioConfig = {
     reporters: ['spec', ['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
+        disableMochaHooks: true
     }]],
     mochaOpts: {
         require: 'ts-node/register',

@@ -4,6 +4,7 @@
   "description": "WebDriverIO practice project",
   "scripts": {
     "test": "wdio wdio.conf.js",
+    "clean": "rimraf ./allure-results ./allure-report",
     "remote": "SELENOID=0.0.0.0 wdio",
     "lint": "tslint --fix 'test/**/*.ts' && tslint --fix 'src/**/*.ts'",
     "report": "allure generate ./allure-results --clean && allure open",
