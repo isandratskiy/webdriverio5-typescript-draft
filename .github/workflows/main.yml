@@ -14,9 +14,6 @@ jobs:
       - name: Set up Selenoid Infrastructure
         run: make setup
 
-      - name: Install npm dependencies
-        run: npm install
-
       - name: Run UI-Automation tests with Chrome browser
         env:
           SELENOID: '127.0.0.1'
