@@ -12,15 +12,15 @@ jobs:
         run: make workdir
 
       - name: Set up Selenoid Infrastructure
-        run: make start
+        run: make setup
 
       - name: Install npm dependencies
         run: npm install
 
       - name: Run UI-Automation tests with Chrome browser
         env:
-          SELENOID: '0.0.0.0'
-        run: npm test
+          SELENOID: '127.0.0.1'
+        run: npm cit
 
       - name: Shutdown Selenoid Infrastructure
         run: make stop

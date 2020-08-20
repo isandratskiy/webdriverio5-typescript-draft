@@ -15,4 +15,8 @@ describe('Windows page', () => {
         WindowsPage.switchTab;
         expect($('h3').getText()).to.equal('New Window');
     });
+
+    afterEach('clear opened windows', () => {
+        browser.reloadSession();
+    });
 });

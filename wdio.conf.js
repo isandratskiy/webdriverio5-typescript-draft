@@ -52,16 +52,16 @@ const wdioConfig = {
         ui: 'bdd',
         timeout: timeout
     },
-    /*before: function (capabilities, specs) {
-        require('ts-node').register({
+    before: function (capabilities, specs) {
+        /*require('ts-node').register({
             files: true
-        });
-    },*/
+        });*/
+    },
     afterTest: function (test) {
         if (test.error !== undefined) {
             browser.takeScreenshot();
         }
-        browser.reloadSession();
+
     }
 };
 

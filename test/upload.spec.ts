@@ -8,7 +8,6 @@ describe('File upload', () => {
     it('is successful', () => {
         FileUploadPage.open;
         FileUploadPage.uploadFile(filePath);
-
         expect(FileUploadPage.uploadStatus).to.contain('File Uploaded!');
     });
 });
