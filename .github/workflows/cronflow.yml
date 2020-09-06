@@ -1,6 +1,8 @@
-name: Run UI-Automation Tests
+name: Night Run UI-Automation Tests
 
-on: [push]
+on:
+  schedule:
+    - cron: "0 3 * * 0-6"
 
 jobs:
   test:
