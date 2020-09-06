@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Form Authentication",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "4b67f7dae83531de",
+      "parentUid" : "2b2ab5da21142e36d1f572e85fc0100a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599430323472,
+        "stop" : 1599430326784,
+        "duration" : 3312
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "displays warning message with invalid credentials",
+      "uid" : "c4352d0d5a6fcd71",
+      "parentUid" : "2b2ab5da21142e36d1f572e85fc0100a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599430326785,
+        "stop" : 1599430327638,
+        "duration" : 853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2b2ab5da21142e36d1f572e85fc0100a"
+  }, {
+    "name" : "File upload",
+    "children" : [ {
+      "name" : "is successful",
+      "uid" : "f493ecfd131d9354",
+      "parentUid" : "283dd2e321dcbe865b99003c5fbf109f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599430324351,
+        "stop" : 1599430325473,
+        "duration" : 1122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "283dd2e321dcbe865b99003c5fbf109f"
+  }, {
+    "name" : "Windows page",
+    "children" : [ {
+      "name" : "should open new window tab after click",
+      "uid" : "dee8546f45526524",
+      "parentUid" : "b0231a657cdeffae9a21a7a9724f276f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599430324635,
+        "stop" : 1599430325279,
+        "duration" : 644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should contain 'New Window' title",
+      "uid" : "491a7c718cdaccf4",
+      "parentUid" : "b0231a657cdeffae9a21a7a9724f276f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599430327229,
+        "stop" : 1599430327800,
+        "duration" : 571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b0231a657cdeffae9a21a7a9724f276f"
+  } ],
+  "name" : "suites"
+}
