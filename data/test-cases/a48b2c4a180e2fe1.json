@@ -1,12 +1,12 @@
 {
-  "uid" : "39397d647c0a59d3",
-  "name" : "should login with valid credentials",
-  "fullName" : "Form Authentication.should login with valid credentials",
-  "historyId" : "61d3618fc9465c15e8ef2732ee6e860d",
+  "uid" : "a48b2c4a180e2fe1",
+  "name" : "is successful",
+  "fullName" : "File upload.is successful",
+  "historyId" : "e2c5a4b4a767801c7410b9e2886bddf0",
   "time" : {
-    "start" : 1599430573930,
-    "stop" : 1599430575285,
-    "duration" : 1355
+    "start" : 1599431811562,
+    "stop" : 1599431815965,
+    "duration" : 4403
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,10 +17,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Login as: tomsmith with password: SuperSecretPassword!",
+      "name" : "Open page: /upload",
       "time" : {
-        "start" : 1599430574434,
-        "stop" : 1599430574434,
+        "start" : 1599431811564,
+        "stop" : 1599431811564,
         "duration" : 0
       },
       "status" : "passed",
@@ -48,19 +48,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-2"
   }, {
     "name" : "suite",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "testClass",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "testMethod",
-    "value" : "should login with valid credentials"
+    "value" : "is successful"
   }, {
     "name" : "package",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -78,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "39397d647c0a59d3.json",
+  "source" : "a48b2c4a180e2fe1.json",
   "parameterValues" : [ "chrome" ]
 }
