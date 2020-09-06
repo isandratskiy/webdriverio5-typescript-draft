@@ -1,12 +1,12 @@
 {
-  "uid" : "4b67f7dae83531de",
-  "name" : "should login with valid credentials",
-  "fullName" : "Form Authentication.should login with valid credentials",
-  "historyId" : "61d3618fc9465c15e8ef2732ee6e860d",
+  "uid" : "d7daf24c04db3f23",
+  "name" : "should open new window tab after click",
+  "fullName" : "Windows page.should open new window tab after click",
+  "historyId" : "8455fb7a96f625e13779986a2c606186",
   "time" : {
-    "start" : 1599430323472,
-    "stop" : 1599430326784,
-    "duration" : 3312
+    "start" : 1599430573722,
+    "stop" : 1599430575088,
+    "duration" : 1366
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,11 +17,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Login as: tomsmith with password: SuperSecretPassword!",
+      "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1599430325911,
-        "stop" : 1599430325911,
-        "duration" : 0
+        "start" : 1599430575088,
+        "stop" : 1599430576742,
+        "duration" : 1654
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,19 +48,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "testClass",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "testMethod",
-    "value" : "should login with valid credentials"
+    "value" : "should open new window tab after click"
   }, {
     "name" : "package",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -78,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4b67f7dae83531de.json",
+  "source" : "d7daf24c04db3f23.json",
   "parameterValues" : [ "chrome" ]
 }
