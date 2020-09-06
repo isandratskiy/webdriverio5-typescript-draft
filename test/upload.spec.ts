@@ -6,7 +6,7 @@ describe('File upload', () => {
     const filePath = path('hello_world.txt');
 
     it('is successful', () => {
-        FileUploadPage.open;
+        FileUploadPage.open();
         FileUploadPage.uploadFile(filePath);
         expect(FileUploadPage.uploadStatus).to.contain('File Uploaded!');
     });

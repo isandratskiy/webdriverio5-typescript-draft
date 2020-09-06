@@ -2,8 +2,8 @@ import {Page} from 'src/pages/Page';
 
 class FileUploadPage extends Page {
 
-    get open() {
-        return super.navigate('/upload');
+    open() {
+        return super.open('/upload');
     }
 
     private get fileUploadInput() {

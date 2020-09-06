@@ -28,5 +28,6 @@ export class LoginFormFragment {
         this.username.setValue(username);
         this.password.setValue(password);
         this.submit.click();
+        allure.endStep();
     }
 }

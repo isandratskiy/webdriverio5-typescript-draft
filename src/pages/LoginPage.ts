@@ -9,8 +9,8 @@ class LoginPage extends Page {
         this.loginFormFragment = new LoginFormFragment('form#login');
     }
 
-    get open() {
-        return super.navigate('/login');
+    open() {
+        return super.open('/login');
     }
 }
 

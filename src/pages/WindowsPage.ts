@@ -2,8 +2,8 @@ import {Page} from 'src/pages/Page';
 
 class WindowsPage extends Page {
 
-    get open() {
-        return super.navigate('/windows');
+    open() {
+        return super.open('/windows');
     }
 
     get openWindowsTab() {
