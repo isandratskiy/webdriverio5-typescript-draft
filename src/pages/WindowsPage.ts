@@ -1,8 +1,9 @@
+import {Page} from 'src/pages/Page';
 
-class WindowsPage {
+class WindowsPage extends Page {
 
     get open() {
-        return browser.url('/windows');
+        return super.navigate('/windows');
     }
 
     get openWindowsTab() {

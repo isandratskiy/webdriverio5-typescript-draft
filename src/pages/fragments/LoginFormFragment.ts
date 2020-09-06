@@ -1,4 +1,4 @@
-import allureReporter from '@wdio/allure-reporter';
+import allure from '@wdio/allure-reporter';
 
 export class LoginFormFragment {
     private containerLocator: string;
@@ -24,7 +24,7 @@ export class LoginFormFragment {
     }
 
     loginWith(username: string, password: string) {
-        allureReporter.addStep(`Login as: ${username} with password: ${password}`);
+        allure.addStep(`Login as: ${username} with password: ${password}`);
         this.username.setValue(username);
         this.password.setValue(password);
         this.submit.click();

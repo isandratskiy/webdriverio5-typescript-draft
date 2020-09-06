@@ -1,7 +1,9 @@
-class FileUploadPage {
+import {Page} from 'src/pages/Page';
+
+class FileUploadPage extends Page {
 
     get open() {
-        return browser.url('/upload');
+        return super.navigate('/upload');
     }
 
     private get fileUploadInput() {
