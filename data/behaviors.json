@@ -2,65 +2,65 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "should open new window tab after click",
-    "uid" : "45bcf6e6c485f37d",
+    "uid" : "d13f9372ce4d3efd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599794230496,
-      "stop" : 1599794231512,
-      "duration" : 1016
+      "start" : 1599880604116,
+      "stop" : 1599880604895,
+      "duration" : 779
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "is successful",
-    "uid" : "7a5a799f68e3ff31",
+    "uid" : "a892b5f41c39454b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599794231308,
-      "stop" : 1599794232622,
-      "duration" : 1314
+      "start" : 1599880604175,
+      "stop" : 1599880605458,
+      "duration" : 1283
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should login with valid credentials",
-    "uid" : "55f33faa6e5f2183",
+    "uid" : "cdad96beb2a646e7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599794232102,
-      "stop" : 1599794233676,
-      "duration" : 1574
+      "start" : 1599880604793,
+      "stop" : 1599880606239,
+      "duration" : 1446
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "displays warning message with invalid credentials",
-    "uid" : "89ef40f9964c3b3e",
+    "uid" : "958f3ed0355c7850",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599794233676,
-      "stop" : 1599794234472,
-      "duration" : 796
+      "start" : 1599880606240,
+      "stop" : 1599880606855,
+      "duration" : 615
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should contain 'New Window' title",
-    "uid" : "1051e5dc775f2f00",
+    "uid" : "f43b9abc78de1855",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599794233736,
-      "stop" : 1599794234284,
-      "duration" : 548
+      "start" : 1599880606677,
+      "stop" : 1599880607173,
+      "duration" : 496
     },
     "flaky" : false,
     "newFailed" : false,
