@@ -1,12 +1,12 @@
 {
-  "uid" : "d935850e3a443a5c",
-  "name" : "displays warning message with invalid credentials",
-  "fullName" : "Form Authentication.displays warning message with invalid credentials",
-  "historyId" : "7c739eba359b3e8bf935afdbafade6ff",
+  "uid" : "3de6d29f2b5dd091",
+  "name" : "is successful",
+  "fullName" : "File upload.is successful",
+  "historyId" : "e2c5a4b4a767801c7410b9e2886bddf0",
   "time" : {
-    "start" : 1600139854661,
-    "stop" : 1600139855492,
-    "duration" : 831
+    "start" : 1600226250171,
+    "stop" : 1600226251262,
+    "duration" : 1091
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,25 +17,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /login",
+      "name" : "Open page: /upload",
       "time" : {
-        "start" : 1600139854661,
-        "stop" : 1600139854661,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Login as: johndoe with password: InvalidPassword!",
-      "time" : {
-        "start" : 1600139854842,
-        "stop" : 1600139854842,
+        "start" : 1600226250173,
+        "stop" : 1600226250173,
         "duration" : 0
       },
       "status" : "passed",
@@ -49,7 +34,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -63,19 +48,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-2"
   }, {
     "name" : "suite",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "testClass",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "testMethod",
-    "value" : "displays warning message with invalid credentials"
+    "value" : "is successful"
   }, {
     "name" : "package",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -93,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d935850e3a443a5c.json",
+  "source" : "3de6d29f2b5dd091.json",
   "parameterValues" : [ "chrome" ]
 }
