@@ -1,12 +1,12 @@
 {
-  "uid" : "e47a7bb180c2d86d",
-  "name" : "is successful",
-  "fullName" : "File upload.is successful",
-  "historyId" : "e2c5a4b4a767801c7410b9e2886bddf0",
+  "uid" : "add7a52e28ba6e8f",
+  "name" : "should login with valid credentials",
+  "fullName" : "Form Authentication.should login with valid credentials",
+  "historyId" : "61d3618fc9465c15e8ef2732ee6e860d",
   "time" : {
-    "start" : 1600399046704,
-    "stop" : 1600399048043,
-    "duration" : 1339
+    "start" : 1600485482577,
+    "stop" : 1600485484416,
+    "duration" : 1839
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,10 +17,25 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /upload",
+      "name" : "Open page: /login",
       "time" : {
-        "start" : 1600399046706,
-        "stop" : 1600399046706,
+        "start" : 1600485482599,
+        "stop" : 1600485482600,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Login as: tomsmith with password: SuperSecretPassword!",
+      "time" : {
+        "start" : 1600485483252,
+        "stop" : 1600485483252,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,7 +49,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -48,19 +63,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "File upload"
+    "value" : "Form Authentication"
   }, {
     "name" : "testClass",
-    "value" : "File upload"
+    "value" : "Form Authentication"
   }, {
     "name" : "testMethod",
-    "value" : "is successful"
+    "value" : "should login with valid credentials"
   }, {
     "name" : "package",
-    "value" : "File upload"
+    "value" : "Form Authentication"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -78,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e47a7bb180c2d86d.json",
+  "source" : "add7a52e28ba6e8f.json",
   "parameterValues" : [ "chrome" ]
 }

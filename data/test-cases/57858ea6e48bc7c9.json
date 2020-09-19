@@ -1,12 +1,12 @@
 {
-  "uid" : "50f7f9d5be135459",
-  "name" : "displays warning message with invalid credentials",
-  "fullName" : "Form Authentication.displays warning message with invalid credentials",
-  "historyId" : "7c739eba359b3e8bf935afdbafade6ff",
+  "uid" : "57858ea6e48bc7c9",
+  "name" : "should open new window tab after click",
+  "fullName" : "Windows page.should open new window tab after click",
+  "historyId" : "8455fb7a96f625e13779986a2c606186",
   "time" : {
-    "start" : 1600399048798,
-    "stop" : 1600399049549,
-    "duration" : 751
+    "start" : 1600485481370,
+    "stop" : 1600485482017,
+    "duration" : 647
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,11 +17,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /login",
+      "name" : "Open page: /windows",
       "time" : {
-        "start" : 1600399048798,
-        "stop" : 1600399048798,
-        "duration" : 0
+        "start" : 1600485481399,
+        "stop" : 1600485481400,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,11 +32,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Login as: johndoe with password: InvalidPassword!",
+      "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1600399048940,
-        "stop" : 1600399048940,
-        "duration" : 0
+        "start" : 1600485482017,
+        "stop" : 1600485484499,
+        "duration" : 2482
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,19 +63,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "testClass",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "testMethod",
-    "value" : "displays warning message with invalid credentials"
+    "value" : "should open new window tab after click"
   }, {
     "name" : "package",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "50f7f9d5be135459.json",
+  "source" : "57858ea6e48bc7c9.json",
   "parameterValues" : [ "chrome" ]
 }
