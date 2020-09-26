@@ -1,50 +1,50 @@
 [ {
-  "uid" : "ff659fb98e79b15f",
-  "name" : "should contain 'New Window' title",
-  "time" : {
-    "start" : 1601003882441,
-    "stop" : 1601003883080,
-    "duration" : 639
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e3fa01cc49001350",
+  "uid" : "7f690464f9178da9",
   "name" : "is successful",
   "time" : {
-    "start" : 1601003881116,
-    "stop" : 1601003882390,
-    "duration" : 1274
+    "start" : 1601090299779,
+    "stop" : 1601090300974,
+    "duration" : 1195
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b9d90d34aa0ba7ff",
-  "name" : "displays warning message with invalid credentials",
+  "uid" : "30ad3ebb182961bb",
+  "name" : "should contain 'New Window' title",
   "time" : {
-    "start" : 1601003882889,
-    "stop" : 1601003883651,
-    "duration" : 762
+    "start" : 1601090301050,
+    "stop" : 1601090301742,
+    "duration" : 692
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9a1a6ef7b32f3372",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1601003881304,
-    "stop" : 1601003882889,
-    "duration" : 1585
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89bc593ea7ec22fa",
+  "uid" : "9db048f9920bd558",
   "name" : "should open new window tab after click",
   "time" : {
-    "start" : 1601003879498,
-    "stop" : 1601003880176,
-    "duration" : 678
+    "start" : 1601090297575,
+    "stop" : 1601090298248,
+    "duration" : 673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f2e27ced7286262",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1601090300301,
+    "stop" : 1601090301518,
+    "duration" : 1217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ffe5d27ee55123c",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1601090298313,
+    "stop" : 1601090300301,
+    "duration" : 1988
   },
   "status" : "passed",
   "severity" : "normal"
