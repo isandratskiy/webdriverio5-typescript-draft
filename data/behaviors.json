@@ -1,66 +1,66 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "should login with valid credentials",
-    "uid" : "7b1270d894746d0c",
+    "name" : "is successful",
+    "uid" : "efe7a9f31f6c110a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1601263105966,
-      "stop" : 1601263107964,
-      "duration" : 1998
+      "start" : 1601349495617,
+      "stop" : 1601349496553,
+      "duration" : 936
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should open new window tab after click",
-    "uid" : "c686ad89d774a300",
+    "uid" : "4a1e62d3464ec606",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1601263106609,
-      "stop" : 1601263107623,
-      "duration" : 1014
+      "start" : 1601349497016,
+      "stop" : 1601349497811,
+      "duration" : 795
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "is successful",
-    "uid" : "1a3fd8bacdfeae69",
+    "name" : "should login with valid credentials",
+    "uid" : "3bb3e7f389cc252a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1601263107223,
-      "stop" : 1601263108648,
-      "duration" : 1425
+      "start" : 1601349497439,
+      "stop" : 1601349498747,
+      "duration" : 1308
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "displays warning message with invalid credentials",
-    "uid" : "f641c834a8528418",
+    "uid" : "d2113b3d86ce6526",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1601263107965,
-      "stop" : 1601263109200,
-      "duration" : 1235
+      "start" : 1601349498747,
+      "stop" : 1601349499637,
+      "duration" : 890
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should contain 'New Window' title",
-    "uid" : "86da219febf1463a",
+    "uid" : "61c096857e955739",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1601263109715,
-      "stop" : 1601263110105,
-      "duration" : 390
+      "start" : 1601349499625,
+      "stop" : 1601349500218,
+      "duration" : 593
     },
     "flaky" : false,
     "newFailed" : false,
