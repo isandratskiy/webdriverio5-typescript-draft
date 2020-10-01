@@ -1,12 +1,12 @@
 {
-  "uid" : "13caeec539f91a08",
-  "name" : "is successful",
-  "fullName" : "File upload.is successful",
-  "historyId" : "e2c5a4b4a767801c7410b9e2886bddf0",
+  "uid" : "949c7a1fe29b2843",
+  "name" : "should open new window tab after click",
+  "fullName" : "Windows page.should open new window tab after click",
+  "historyId" : "8455fb7a96f625e13779986a2c606186",
   "time" : {
-    "start" : 1601435921974,
-    "stop" : 1601435923082,
-    "duration" : 1108
+    "start" : 1601522316471,
+    "stop" : 1601522317410,
+    "duration" : 939
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,11 +17,26 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /upload",
+      "name" : "Open page: /windows",
       "time" : {
-        "start" : 1601435921975,
-        "stop" : 1601435921993,
-        "duration" : 18
+        "start" : 1601522316479,
+        "stop" : 1601522316479,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1601522317410,
+        "stop" : 1601522319243,
+        "duration" : 1833
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,7 +49,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -48,19 +63,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "File upload"
+    "value" : "Windows page"
   }, {
     "name" : "testClass",
-    "value" : "File upload"
+    "value" : "Windows page"
   }, {
     "name" : "testMethod",
-    "value" : "is successful"
+    "value" : "should open new window tab after click"
   }, {
     "name" : "package",
-    "value" : "File upload"
+    "value" : "Windows page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -78,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "13caeec539f91a08.json",
+  "source" : "949c7a1fe29b2843.json",
   "parameterValues" : [ "chrome" ]
 }
