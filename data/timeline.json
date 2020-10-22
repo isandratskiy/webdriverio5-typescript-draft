@@ -1,46 +1,29 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "0-2",
-    "children" : [ {
-      "name" : "is successful",
-      "uid" : "1ca78dc154cac6b1",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603250487939,
-        "stop" : 1603250489560,
-        "duration" : 1621
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "880a094af3dffab161e2023284569d6f"
-  }, {
     "name" : "0-0",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "a573aaed85492d5a",
+      "uid" : "c10fda7768c8bb9c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1603250488276,
-        "stop" : 1603250491025,
-        "duration" : 2749
+        "start" : 1603336869548,
+        "stop" : 1603336871647,
+        "duration" : 2099
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "displays warning message with invalid credentials",
-      "uid" : "bd090073791a5dfd",
+      "uid" : "7bb0b7d693625d6b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1603250491025,
-        "stop" : 1603250492891,
-        "duration" : 1866
+        "start" : 1603336871647,
+        "stop" : 1603336872655,
+        "duration" : 1008
       },
       "flaky" : false,
       "newFailed" : false,
@@ -48,29 +31,46 @@
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "is successful",
+      "uid" : "9f9a95974d940923",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603336869941,
+        "stop" : 1603336871223,
+        "duration" : 1282
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
     "name" : "0-1",
     "children" : [ {
       "name" : "should open new window tab after click",
-      "uid" : "570bb12fdfcad3d7",
+      "uid" : "12a2e9da614abc35",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1603250488866,
-        "stop" : 1603250491059,
-        "duration" : 2193
+        "start" : 1603336867901,
+        "stop" : 1603336868617,
+        "duration" : 716
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should contain 'New Window' title",
-      "uid" : "eab84914b1a7a602",
+      "uid" : "b9a12511371d51c8",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1603250492610,
-        "stop" : 1603250495425,
-        "duration" : 2815
+        "start" : 1603336871123,
+        "stop" : 1603336871903,
+        "duration" : 780
       },
       "flaky" : false,
       "newFailed" : false,
