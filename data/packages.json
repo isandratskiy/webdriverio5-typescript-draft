@@ -4,13 +4,13 @@
     "name" : "File upload",
     "children" : [ {
       "name" : "is successful",
-      "uid" : "cd41c7c10d277908",
+      "uid" : "fcb23bebcd5aa8f3",
       "parentUid" : "14cf0b9f789ec0d4d68aaf02aef8bebf",
       "status" : "passed",
       "time" : {
-        "start" : 1603768948620,
-        "stop" : 1603768949833,
-        "duration" : 1213
+        "start" : 1603855386134,
+        "stop" : 1603855386886,
+        "duration" : 752
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,26 +21,26 @@
     "name" : "Windows page",
     "children" : [ {
       "name" : "should open new window tab after click",
-      "uid" : "2590997a45255e5f",
+      "uid" : "56b317441bfedfd",
       "parentUid" : "fb93cdc21ea8b1b9fa5b8c5915e8d37d",
       "status" : "passed",
       "time" : {
-        "start" : 1603768948820,
-        "stop" : 1603768949692,
-        "duration" : 872
+        "start" : 1603855387586,
+        "stop" : 1603855388069,
+        "duration" : 483
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should contain 'New Window' title",
-      "uid" : "81f91882c3982c06",
+      "uid" : "9e98dd638b9a6c5",
       "parentUid" : "fb93cdc21ea8b1b9fa5b8c5915e8d37d",
       "status" : "passed",
       "time" : {
-        "start" : 1603768951566,
-        "stop" : 1603768951993,
-        "duration" : 427
+        "start" : 1603855389529,
+        "stop" : 1603855389896,
+        "duration" : 367
       },
       "flaky" : false,
       "newFailed" : false,
@@ -51,26 +51,26 @@
     "name" : "Form Authentication",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "5b6471d2b1831585",
+      "uid" : "f919fa28e95d3107",
       "parentUid" : "84e32f934cced8d4d0cb8474aa6198ff",
       "status" : "passed",
       "time" : {
-        "start" : 1603768949204,
-        "stop" : 1603768950645,
-        "duration" : 1441
+        "start" : 1603855387739,
+        "stop" : 1603855388784,
+        "duration" : 1045
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "displays warning message with invalid credentials",
-      "uid" : "46e69af0e0801ee",
+      "uid" : "a5a8408e9dac953d",
       "parentUid" : "84e32f934cced8d4d0cb8474aa6198ff",
       "status" : "passed",
       "time" : {
-        "start" : 1603768950646,
-        "stop" : 1603768951305,
-        "duration" : 659
+        "start" : 1603855388784,
+        "stop" : 1603855389403,
+        "duration" : 619
       },
       "flaky" : false,
       "newFailed" : false,
