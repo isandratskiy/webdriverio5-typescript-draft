@@ -1,66 +1,66 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "is successful",
-    "uid" : "92e3d563f2e383fb",
+    "name" : "should open new window tab after click",
+    "uid" : "30fa42bbac5701f1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1604027554418,
-      "stop" : 1604027555260,
-      "duration" : 842
+      "start" : 1604114029035,
+      "stop" : 1604114030136,
+      "duration" : 1101
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "should open new window tab after click",
-    "uid" : "34cc3f69c7e585c8",
+    "name" : "is successful",
+    "uid" : "4efbb2dab0e8aded",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1604027555261,
-      "stop" : 1604027555949,
-      "duration" : 688
+      "start" : 1604114029862,
+      "stop" : 1604114031606,
+      "duration" : 1744
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should login with valid credentials",
-    "uid" : "ebf9e403f3686da2",
+    "uid" : "c2b19facd6f02fe1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1604027555727,
-      "stop" : 1604027556938,
-      "duration" : 1211
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "displays warning message with invalid credentials",
-    "uid" : "72802895474c64d3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604027556938,
-      "stop" : 1604027557610,
-      "duration" : 672
+      "start" : 1604114030497,
+      "stop" : 1604114032987,
+      "duration" : 2490
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should contain 'New Window' title",
-    "uid" : "e0fd764316ecaeb5",
+    "uid" : "40019499a6d22741",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1604027557747,
-      "stop" : 1604027558149,
-      "duration" : 402
+      "start" : 1604114032286,
+      "stop" : 1604114033357,
+      "duration" : 1071
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "displays warning message with invalid credentials",
+    "uid" : "3cbf0cc7a355ac71",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604114032987,
+      "stop" : 1604114034230,
+      "duration" : 1243
     },
     "flaky" : false,
     "newFailed" : false,
