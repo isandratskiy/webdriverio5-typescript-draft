@@ -1,50 +1,50 @@
 [ {
-  "uid" : "e7ec423efb112f42",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1604196945811,
-    "stop" : 1604196946423,
-    "duration" : 612
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2ac65ebdd4962eb6",
+  "uid" : "4571aa71988c0ef",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1604196945554,
-    "stop" : 1604196946791,
-    "duration" : 1237
+    "start" : 1604283247452,
+    "stop" : 1604283249054,
+    "duration" : 1602
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e23ab7c6d4d23061",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1604196946792,
-    "stop" : 1604196947430,
-    "duration" : 638
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b11c3320a268bef5",
+  "uid" : "655436146e8fe41",
   "name" : "is successful",
   "time" : {
-    "start" : 1604196943936,
-    "stop" : 1604196944617,
-    "duration" : 681
+    "start" : 1604283246902,
+    "stop" : 1604283248168,
+    "duration" : 1266
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d49b8d4f9941fa8e",
+  "uid" : "e40f5d980c11bbba",
   "name" : "should contain 'New Window' title",
   "time" : {
-    "start" : 1604196947846,
-    "stop" : 1604196948199,
-    "duration" : 353
+    "start" : 1604283249829,
+    "stop" : 1604283250297,
+    "duration" : 468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9a951fb12e5cd9a",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1604283247019,
+    "stop" : 1604283247933,
+    "duration" : 914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3137bf7c827f342",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1604283249054,
+    "stop" : 1604283249714,
+    "duration" : 660
   },
   "status" : "passed",
   "severity" : "normal"
