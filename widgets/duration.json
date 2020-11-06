@@ -1,50 +1,50 @@
 [ {
-  "uid" : "cde138915bef04a3",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1604542545753,
-    "stop" : 1604542546430,
-    "duration" : 677
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1f016162f818f49",
+  "uid" : "3dac6e431f538bc9",
   "name" : "should open new window tab after click",
   "time" : {
-    "start" : 1604542543346,
-    "stop" : 1604542543955,
-    "duration" : 609
+    "start" : 1604628945690,
+    "stop" : 1604628946516,
+    "duration" : 826
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ea72478c61a5dffb",
-  "name" : "should login with valid credentials",
+  "uid" : "141e2cc34288b15a",
+  "name" : "displays warning message with invalid credentials",
   "time" : {
-    "start" : 1604542544155,
-    "stop" : 1604542545752,
-    "duration" : 1597
+    "start" : 1604628946248,
+    "stop" : 1604628947723,
+    "duration" : 1475
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6eab5d1804b4a714",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1604542544097,
-    "stop" : 1604542545211,
-    "duration" : 1114
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fef79440865d5200",
+  "uid" : "49216a7732279608",
   "name" : "should contain 'New Window' title",
   "time" : {
-    "start" : 1604542546296,
-    "stop" : 1604542546810,
-    "duration" : 514
+    "start" : 1604628948363,
+    "stop" : 1604628948715,
+    "duration" : 352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "736600bab20d24fb",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1604628944763,
+    "stop" : 1604628946248,
+    "duration" : 1485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da0a786efb53198a",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1604628946059,
+    "stop" : 1604628947330,
+    "duration" : 1271
   },
   "status" : "passed",
   "severity" : "normal"
