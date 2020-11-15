@@ -1,50 +1,50 @@
 [ {
-  "uid" : "36973c3cd68f9701",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1605320122843,
-    "stop" : 1605320123651,
-    "duration" : 808
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0952c0f2240423f",
+  "uid" : "dc777e9e0e67cd25",
   "name" : "is successful",
   "time" : {
-    "start" : 1605320122214,
-    "stop" : 1605320123347,
-    "duration" : 1133
+    "start" : 1605406513012,
+    "stop" : 1605406514015,
+    "duration" : 1003
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5873c139b7f2f0f9",
-  "name" : "displays warning message with invalid credentials",
+  "uid" : "a407cbfcf6e3a3ba",
+  "name" : "should open new window tab after click",
   "time" : {
-    "start" : 1605320124115,
-    "stop" : 1605320124829,
-    "duration" : 714
+    "start" : 1605406511121,
+    "stop" : 1605406511690,
+    "duration" : 569
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3545fd19080300ae",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1605320122588,
-    "stop" : 1605320124114,
-    "duration" : 1526
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b50978a25f4d587d",
+  "uid" : "572f9dd958788fc0",
   "name" : "should contain 'New Window' title",
   "time" : {
-    "start" : 1605320125300,
-    "stop" : 1605320125667,
-    "duration" : 367
+    "start" : 1605406513638,
+    "stop" : 1605406514406,
+    "duration" : 768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "268834c8a7880470",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1605406514222,
+    "stop" : 1605406515015,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20f7276412de3b48",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1605406512710,
+    "stop" : 1605406514222,
+    "duration" : 1512
   },
   "status" : "passed",
   "severity" : "normal"
