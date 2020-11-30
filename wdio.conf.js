@@ -59,7 +59,7 @@ const wdioConfig = {
 };
 
 if (process.env.SELENOID) {
-    wdioConfig.services = undefined;
+    wdioConfig.services = [];
     wdioConfig.hostname = process.env.SELENOID;
     wdioConfig.port = 4444;
     wdioConfig.path = "/wd/hub";
