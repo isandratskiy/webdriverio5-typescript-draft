@@ -1,9 +1,12 @@
-version: "3.1"
+version: "3.8"
+
+networks:
+  selenoid:
+    name: selenoid
 
 services:
   selenoid:
     container_name: selenoid
-    network_mode: bridge
     image: aerokube/selenoid:latest-release
     volumes:
       - $PWD:/etc/selenoid
@@ -15,13 +18,15 @@ services:
         "-session-attempt-timeout", "5m0s",
         "-session-delete-timeout", "5m0s",
         "-timeout", "5m0s",
+        "-container-network", "selenoid-net"
       ]
     ports:
       - 4444:4444
+    networks:
+      - selenoid
 
   selenoid-ui:
     container_name: selenoid-ui
-    network_mode: bridge
     image: aerokube/selenoid-ui:latest-release
     depends_on:
       - selenoid
@@ -33,3 +38,5 @@ services:
       ]
     ports:
       - 8081:8080
+    networks:
+      - selenoid

@@ -7,9 +7,6 @@ const wdioConfig = {
         './test/**/*.ts',
         './test/**/*.js'
     ],
-    exclude: [
-        //'path/to/excluded/files'
-    ],
     capabilities: [
         {
             maxInstances: 5,
@@ -52,11 +49,6 @@ const wdioConfig = {
         compilers: ['tsconfig-paths/register'],
         ui: 'bdd',
         timeout: timeout
-    },
-    before: function (capabilities, specs) {
-        /*require('ts-node').register({
-            files: true
-        });*/
     },
     afterTest: function (test) {
         if (test.error !== undefined) {
