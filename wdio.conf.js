@@ -37,7 +37,6 @@ const wdioConfig = {
     waitforTimeout: 10000,
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
-    services: ['chromedriver'],
     framework: 'mocha',
     reporters: ['spec', ['allure', {
         outputDir: 'allure-results',
