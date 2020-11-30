@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 30 01:01:42 UTC 2020","Mon Nov 30 01:01:42 UTC 2020","437","","Windows page","","Windows page","should contain 'New Window' title","should contain 'New Window' title",""
+"passed","Mon Nov 30 01:01:38 UTC 2020","Mon Nov 30 01:01:39 UTC 2020","842","","File upload","","File upload","is successful","is successful",""
+"passed","Mon Nov 30 01:01:39 UTC 2020","Mon Nov 30 01:01:40 UTC 2020","504","","Windows page","","Windows page","should open new window tab after click","should open new window tab after click",""
+"passed","Mon Nov 30 01:01:41 UTC 2020","Mon Nov 30 01:01:41 UTC 2020","659","","Form Authentication","","Form Authentication","displays warning message with invalid credentials","displays warning message with invalid credentials",""
+"passed","Mon Nov 30 01:01:40 UTC 2020","Mon Nov 30 01:01:41 UTC 2020","1147","","Form Authentication","","Form Authentication","should login with valid credentials","should login with valid credentials",""
