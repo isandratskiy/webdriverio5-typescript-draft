@@ -18,7 +18,7 @@ services:
         "-session-attempt-timeout", "5m0s",
         "-session-delete-timeout", "5m0s",
         "-timeout", "5m0s",
-        "-container-network", "selenoid-net"
+        "-container-network", "selenoid"
       ]
     ports:
       - 4444:4444
