@@ -1,50 +1,50 @@
 [ {
-  "uid" : "6435a4ff32d09031",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1607134723911,
-    "stop" : 1607134724866,
-    "duration" : 955
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba8fd3deff7c1137",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1607134720931,
-    "stop" : 1607134725355,
-    "duration" : 4424
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cdc76e2401db5bb1",
+  "uid" : "b816d44a49094916",
   "name" : "should open new window tab after click",
   "time" : {
-    "start" : 1607134721566,
-    "stop" : 1607134722040,
-    "duration" : 474
+    "start" : 1607221236711,
+    "stop" : 1607221237253,
+    "duration" : 542
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1cc890ead34acd08",
-  "name" : "should contain 'New Window' title",
+  "uid" : "46f9815d8b4e36cc",
+  "name" : "is successful",
   "time" : {
-    "start" : 1607134723732,
-    "stop" : 1607134724324,
-    "duration" : 592
+    "start" : 1607221235957,
+    "stop" : 1607221236846,
+    "duration" : 889
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e84c3c392a3805d7",
+  "uid" : "cb933aaf37cb2ea6",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1607134722943,
-    "stop" : 1607134723910,
-    "duration" : 967
+    "start" : 1607221236281,
+    "stop" : 1607221237522,
+    "duration" : 1241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8cfbd230dd6e444",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1607221237522,
+    "stop" : 1607221238123,
+    "duration" : 601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "549955ab8d24c5cb",
+  "name" : "should contain 'New Window' title",
+  "time" : {
+    "start" : 1607221238688,
+    "stop" : 1607221238954,
+    "duration" : 266
   },
   "status" : "passed",
   "severity" : "normal"
