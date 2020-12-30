@@ -1,50 +1,50 @@
 [ {
-  "uid" : "5ee58f640e66c38d",
+  "uid" : "32eb40b1c44d1986",
   "name" : "should open new window tab after click",
   "time" : {
-    "start" : 1609209791023,
-    "stop" : 1609209792171,
-    "duration" : 1148
+    "start" : 1609296195668,
+    "stop" : 1609296196215,
+    "duration" : 547
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1af0b9ef2d0c13be",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1609209789616,
-    "stop" : 1609209790930,
-    "duration" : 1314
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d8e1bedd7bec3edd",
-  "name" : "should contain 'New Window' title",
-  "time" : {
-    "start" : 1609209793525,
-    "stop" : 1609209794127,
-    "duration" : 602
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d52c411e52397ac",
+  "uid" : "23ddffb770ee9d6",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1609209788043,
-    "stop" : 1609209789616,
-    "duration" : 1573
+    "start" : 1609296194214,
+    "stop" : 1609296196118,
+    "duration" : 1904
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d605b547176c0059",
+  "uid" : "b679203bac0ea3cf",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1609296196119,
+    "stop" : 1609296197124,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d52a23aa4b91be4f",
   "name" : "is successful",
   "time" : {
-    "start" : 1609209790027,
-    "stop" : 1609209791269,
-    "duration" : 1242
+    "start" : 1609296194437,
+    "stop" : 1609296195563,
+    "duration" : 1126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aae51f77979b306",
+  "name" : "should contain 'New Window' title",
+  "time" : {
+    "start" : 1609296197765,
+    "stop" : 1609296198119,
+    "duration" : 354
   },
   "status" : "passed",
   "severity" : "normal"
