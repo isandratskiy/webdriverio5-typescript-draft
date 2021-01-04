@@ -1,12 +1,12 @@
 {
-  "uid" : "ce0381c9bb0f934e",
-  "name" : "should contain 'New Window' title",
-  "fullName" : "Windows page.should contain 'New Window' title",
-  "historyId" : "8bd5842ca269c49a555521be2c0a01bd",
+  "uid" : "f3a60b120633e9fa",
+  "name" : "should open new window tab after click",
+  "fullName" : "Windows page.should open new window tab after click",
+  "historyId" : "8455fb7a96f625e13779986a2c606186",
   "time" : {
-    "start" : 1609642131736,
-    "stop" : 1609642132145,
-    "duration" : 409
+    "start" : 1609728639994,
+    "stop" : 1609728640506,
+    "duration" : 512
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "Open page: /windows",
       "time" : {
-        "start" : 1609642131737,
-        "stop" : 1609642131737,
+        "start" : 1609728639995,
+        "stop" : 1609728639995,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,9 +34,9 @@
     }, {
       "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1609642132145,
-        "stop" : 1609642133449,
-        "duration" : 1304
+        "start" : 1609728640506,
+        "stop" : 1609728642245,
+        "duration" : 1739
       },
       "status" : "passed",
       "steps" : [ ],
@@ -72,7 +72,7 @@
     "value" : "Windows page"
   }, {
     "name" : "testMethod",
-    "value" : "should contain 'New Window' title"
+    "value" : "should open new window tab after click"
   }, {
     "name" : "package",
     "value" : "Windows page"
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ce0381c9bb0f934e.json",
+  "source" : "f3a60b120633e9fa.json",
   "parameterValues" : [ "chrome" ]
 }
