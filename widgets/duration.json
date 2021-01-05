@@ -1,50 +1,50 @@
 [ {
-  "uid" : "d256ecca6cb64ea3",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1609728640034,
-    "stop" : 1609728641187,
-    "duration" : 1153
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "34827ed48204b3a3",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1609728641187,
-    "stop" : 1609728641857,
-    "duration" : 670
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bcbf4b7b622cb70d",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1609728637401,
-    "stop" : 1609728638211,
-    "duration" : 810
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3a60b120633e9fa",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1609728639994,
-    "stop" : 1609728640506,
-    "duration" : 512
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6c9d0ad4ec48530",
+  "uid" : "e5e55b9daf41fd98",
   "name" : "should contain 'New Window' title",
   "time" : {
-    "start" : 1609728642245,
-    "stop" : 1609728642621,
-    "duration" : 376
+    "start" : 1609815071905,
+    "stop" : 1609815072526,
+    "duration" : 621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f924e9491552be49",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1609815072292,
+    "stop" : 1609815073021,
+    "duration" : 729
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8883c80ec16444a",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1609815069038,
+    "stop" : 1609815069864,
+    "duration" : 826
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7147fd9f426265d",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1609815069434,
+    "stop" : 1609815071874,
+    "duration" : 2440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44fab5679ca3929",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1609815070886,
+    "stop" : 1609815072292,
+    "duration" : 1406
   },
   "status" : "passed",
   "severity" : "normal"
