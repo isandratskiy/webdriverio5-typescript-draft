@@ -1,12 +1,12 @@
 {
-  "uid" : "a8883c80ec16444a",
-  "name" : "should open new window tab after click",
-  "fullName" : "Windows page.should open new window tab after click",
-  "historyId" : "8455fb7a96f625e13779986a2c606186",
+  "uid" : "8cbe35749876e1dd",
+  "name" : "should login with valid credentials",
+  "fullName" : "Form Authentication.should login with valid credentials",
+  "historyId" : "61d3618fc9465c15e8ef2732ee6e860d",
   "time" : {
-    "start" : 1609815069038,
-    "stop" : 1609815069864,
-    "duration" : 826
+    "start" : 1609901548432,
+    "stop" : 1609901550321,
+    "duration" : 1889
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,10 +17,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /windows",
+      "name" : "Open page: /login",
       "time" : {
-        "start" : 1609815069040,
-        "stop" : 1609815069040,
+        "start" : 1609901548433,
+        "stop" : 1609901548433,
         "duration" : 0
       },
       "status" : "passed",
@@ -32,11 +32,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "\"after each\" hook",
+      "name" : "Login as: tomsmith with password: SuperSecretPassword!",
       "time" : {
-        "start" : 1609815069864,
-        "stop" : 1609815071904,
-        "duration" : 2040
+        "start" : 1609901549258,
+        "stop" : 1609901549258,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,19 +63,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "Windows page"
+    "value" : "Form Authentication"
   }, {
     "name" : "testClass",
-    "value" : "Windows page"
+    "value" : "Form Authentication"
   }, {
     "name" : "testMethod",
-    "value" : "should open new window tab after click"
+    "value" : "should login with valid credentials"
   }, {
     "name" : "package",
-    "value" : "Windows page"
+    "value" : "Form Authentication"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a8883c80ec16444a.json",
+  "source" : "8cbe35749876e1dd.json",
   "parameterValues" : [ "chrome" ]
 }
