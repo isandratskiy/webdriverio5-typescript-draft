@@ -1,50 +1,50 @@
 [ {
-  "uid" : "79035560d4f9d747",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1610939574850,
-    "stop" : 1610939575444,
-    "duration" : 594
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a206acf42b08cbc2",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1610939578211,
-    "stop" : 1610939580123,
-    "duration" : 1912
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac5f59ed16ecdec2",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1610939578429,
-    "stop" : 1610939579808,
-    "duration" : 1379
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f10570c8e814dc8",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1610939580123,
-    "stop" : 1610939580805,
-    "duration" : 682
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1deed4566978310f",
+  "uid" : "f8b5b0f3fe1b8eef",
   "name" : "should contain 'New Window' title",
   "time" : {
-    "start" : 1610939577735,
-    "stop" : 1610939578400,
-    "duration" : 665
+    "start" : 1611026131869,
+    "stop" : 1611026132783,
+    "duration" : 914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ece96b4b401172b",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1611026133579,
+    "stop" : 1611026134541,
+    "duration" : 962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d662c3fbf61a4112",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1611026133471,
+    "stop" : 1611026134411,
+    "duration" : 940
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbc29198a89dddab",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1611026131957,
+    "stop" : 1611026133579,
+    "duration" : 1622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef3a8676b08fae46",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1611026128955,
+    "stop" : 1611026129651,
+    "duration" : 696
   },
   "status" : "passed",
   "severity" : "normal"

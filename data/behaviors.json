@@ -2,65 +2,65 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "should open new window tab after click",
-    "uid" : "79035560d4f9d747",
+    "uid" : "ef3a8676b08fae46",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610939574850,
-      "stop" : 1610939575444,
-      "duration" : 594
+      "start" : 1611026128955,
+      "stop" : 1611026129651,
+      "duration" : 696
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should contain 'New Window' title",
-    "uid" : "1deed4566978310f",
+    "uid" : "f8b5b0f3fe1b8eef",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610939577735,
-      "stop" : 1610939578400,
-      "duration" : 665
+      "start" : 1611026131869,
+      "stop" : 1611026132783,
+      "duration" : 914
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should login with valid credentials",
-    "uid" : "a206acf42b08cbc2",
+    "uid" : "dbc29198a89dddab",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610939578211,
-      "stop" : 1610939580123,
-      "duration" : 1912
+      "start" : 1611026131957,
+      "stop" : 1611026133579,
+      "duration" : 1622
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "is successful",
-    "uid" : "ac5f59ed16ecdec2",
+    "uid" : "d662c3fbf61a4112",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610939578429,
-      "stop" : 1610939579808,
-      "duration" : 1379
+      "start" : 1611026133471,
+      "stop" : 1611026134411,
+      "duration" : 940
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "displays warning message with invalid credentials",
-    "uid" : "f10570c8e814dc8",
+    "uid" : "7ece96b4b401172b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610939580123,
-      "stop" : 1610939580805,
-      "duration" : 682
+      "start" : 1611026133579,
+      "stop" : 1611026134541,
+      "duration" : 962
     },
     "flaky" : false,
     "newFailed" : false,
