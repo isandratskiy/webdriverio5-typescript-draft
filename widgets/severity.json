@@ -1,50 +1,50 @@
 [ {
-  "uid" : "e5cb7c68179874f0",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1612233493570,
-    "stop" : 1612233494594,
-    "duration" : 1024
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b168de99b8b736",
-  "name" : "should contain 'New Window' title",
-  "time" : {
-    "start" : 1612233495145,
-    "stop" : 1612233495493,
-    "duration" : 348
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9311935b18141cbf",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1612233494191,
-    "stop" : 1612233495003,
-    "duration" : 812
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "81fefe7a983215d2",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1612233492148,
-    "stop" : 1612233492746,
-    "duration" : 598
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "866ae7e0f5d8180a",
+  "uid" : "756281c13e49a7ff",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1612233492215,
-    "stop" : 1612233493570,
-    "duration" : 1355
+    "start" : 1612319610030,
+    "stop" : 1612319611730,
+    "duration" : 1700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2e2024dd4eda945",
+  "name" : "should contain 'New Window' title",
+  "time" : {
+    "start" : 1612319612491,
+    "stop" : 1612319612942,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bbc3f0fdff76225",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1612319609464,
+    "stop" : 1612319610369,
+    "duration" : 905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e988cae206b93d9",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1612319611731,
+    "stop" : 1612319612409,
+    "duration" : 678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7df4f8d1501684ce",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1612319610159,
+    "stop" : 1612319611304,
+    "duration" : 1145
   },
   "status" : "passed",
   "severity" : "normal"

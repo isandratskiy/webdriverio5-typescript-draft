@@ -1,12 +1,12 @@
 {
-  "uid" : "866ae7e0f5d8180a",
+  "uid" : "756281c13e49a7ff",
   "name" : "should login with valid credentials",
   "fullName" : "Form Authentication.should login with valid credentials",
   "historyId" : "61d3618fc9465c15e8ef2732ee6e860d",
   "time" : {
-    "start" : 1612233492215,
-    "stop" : 1612233493570,
-    "duration" : 1355
+    "start" : 1612319610030,
+    "stop" : 1612319611730,
+    "duration" : 1700
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "Open page: /login",
       "time" : {
-        "start" : 1612233492217,
-        "stop" : 1612233492217,
+        "start" : 1612319610031,
+        "stop" : 1612319610031,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,8 +34,8 @@
     }, {
       "name" : "Login as: tomsmith with password: SuperSecretPassword!",
       "time" : {
-        "start" : 1612233492884,
-        "stop" : 1612233492884,
+        "start" : 1612319610620,
+        "stop" : 1612319610620,
         "duration" : 0
       },
       "status" : "passed",
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "866ae7e0f5d8180a.json",
+  "source" : "756281c13e49a7ff.json",
   "parameterValues" : [ "chrome" ]
 }
