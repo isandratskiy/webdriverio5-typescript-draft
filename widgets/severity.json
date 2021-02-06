@@ -1,50 +1,50 @@
 [ {
-  "uid" : "f32a2fb1eef2da41",
+  "uid" : "790f1e451c5edbfd",
   "name" : "should contain 'New Window' title",
   "time" : {
-    "start" : 1612491719405,
-    "stop" : 1612491719764,
-    "duration" : 359
+    "start" : 1612578065829,
+    "stop" : 1612578066228,
+    "duration" : 399
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d06ba6309db922dc",
-  "name" : "should open new window tab after click",
+  "uid" : "6b0bf9a31024dcb4",
+  "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1612491716807,
-    "stop" : 1612491717489,
+    "start" : 1612578063072,
+    "stop" : 1612578064905,
+    "duration" : 1833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cf2c98755d9342",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1612578064906,
+    "stop" : 1612578065588,
     "duration" : 682
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e9249d5d6fbda658",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1612491716950,
-    "stop" : 1612491718265,
-    "duration" : 1315
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "983ef20d06ca622a",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1612491718266,
-    "stop" : 1612491718916,
-    "duration" : 650
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a335afff93c9e8d9",
+  "uid" : "4230dc78783460b3",
   "name" : "is successful",
   "time" : {
-    "start" : 1612491716451,
-    "stop" : 1612491717475,
-    "duration" : 1024
+    "start" : 1612578063307,
+    "stop" : 1612578064500,
+    "duration" : 1193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9d07d627cc3cef3",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1612578062850,
+    "stop" : 1612578063628,
+    "duration" : 778
   },
   "status" : "passed",
   "severity" : "normal"
