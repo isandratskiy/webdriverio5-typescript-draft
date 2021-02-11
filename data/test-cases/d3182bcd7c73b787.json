@@ -1,12 +1,12 @@
 {
-  "uid" : "dbb70cfa402bda91",
-  "name" : "displays warning message with invalid credentials",
-  "fullName" : "Form Authentication.displays warning message with invalid credentials",
-  "historyId" : "7c739eba359b3e8bf935afdbafade6ff",
+  "uid" : "d3182bcd7c73b787",
+  "name" : "should open new window tab after click",
+  "fullName" : "Windows page.should open new window tab after click",
+  "historyId" : "8455fb7a96f625e13779986a2c606186",
   "time" : {
-    "start" : 1612923499551,
-    "stop" : 1612923500359,
-    "duration" : 808
+    "start" : 1613010121611,
+    "stop" : 1613010122260,
+    "duration" : 649
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,10 +17,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /login",
+      "name" : "Open page: /windows",
       "time" : {
-        "start" : 1612923499551,
-        "stop" : 1612923499551,
+        "start" : 1613010121613,
+        "stop" : 1613010121613,
         "duration" : 0
       },
       "status" : "passed",
@@ -32,11 +32,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Login as: johndoe with password: InvalidPassword!",
+      "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1612923499751,
-        "stop" : 1612923499751,
-        "duration" : 0
+        "start" : 1613010122260,
+        "stop" : 1613010124131,
+        "duration" : 1871
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,19 +63,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "testClass",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "testMethod",
-    "value" : "displays warning message with invalid credentials"
+    "value" : "should open new window tab after click"
   }, {
     "name" : "package",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dbb70cfa402bda91.json",
+  "source" : "d3182bcd7c73b787.json",
   "parameterValues" : [ "chrome" ]
 }
