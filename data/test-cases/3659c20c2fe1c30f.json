@@ -1,12 +1,12 @@
 {
-  "uid" : "3efd04fcf10f62a5",
+  "uid" : "3659c20c2fe1c30f",
   "name" : "should open new window tab after click",
   "fullName" : "Windows page.should open new window tab after click",
   "historyId" : "8455fb7a96f625e13779986a2c606186",
   "time" : {
-    "start" : 1613355790355,
-    "stop" : 1613355790953,
-    "duration" : 598
+    "start" : 1613442168780,
+    "stop" : 1613442169550,
+    "duration" : 770
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "Open page: /windows",
       "time" : {
-        "start" : 1613355790357,
-        "stop" : 1613355790357,
+        "start" : 1613442168782,
+        "stop" : 1613442168782,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,9 +34,9 @@
     }, {
       "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1613355790953,
-        "stop" : 1613355793418,
-        "duration" : 2465
+        "start" : 1613442169551,
+        "stop" : 1613442171291,
+        "duration" : 1740
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3efd04fcf10f62a5.json",
+  "source" : "3659c20c2fe1c30f.json",
   "parameterValues" : [ "chrome" ]
 }
