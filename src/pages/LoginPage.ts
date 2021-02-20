@@ -1,17 +1,17 @@
-import { LoginFormFragment } from 'src/pages/fragments/LoginFormFragment';
-import {Page} from 'src/pages/Page';
+import { LoginFormFragment } from 'src/pages/fragments/LoginFormFragment'
+import { Page } from 'src/pages/Page'
 
 class LoginPage extends Page {
-    loginFormFragment: LoginFormFragment;
+  loginFormFragment: LoginFormFragment
 
-    constructor() {
-        super();
-        this.loginFormFragment = new LoginFormFragment('form#login');
-    }
+  constructor() {
+    super()
+    this.loginFormFragment = new LoginFormFragment('form#login')
+  }
 
-    open() {
-        return super.open('/login');
-    }
+  open() {
+    return super.open('/login')
+  }
 }
 
-export default new LoginPage();
+export default new LoginPage()

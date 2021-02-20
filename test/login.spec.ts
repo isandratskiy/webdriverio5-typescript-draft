@@ -1,18 +1,18 @@
-import {expect} from 'chai';
-import FlashMessageFragment from 'src/pages/fragments/FlashMessageFragment';
-import LoginPage from 'src/pages/LoginPage';
-import SecurePage from 'src/pages/SecurePage';
+import { expect } from 'chai'
+import FlashMessageFragment from 'src/pages/fragments/FlashMessageFragment'
+import LoginPage from 'src/pages/LoginPage'
+import SecurePage from 'src/pages/SecurePage'
 
 describe('Form Authentication', () => {
-    it('should login with valid credentials', () => {
-        LoginPage.open();
-        LoginPage.loginFormFragment.loginWith('tomsmith', 'SuperSecretPassword!');
-        expect(SecurePage.flashMessage).to.contain('You logged into a secure area!');
-    });
+  it('should login with valid credentials', () => {
+    LoginPage.open()
+    LoginPage.loginFormFragment.loginWith('tomsmith', 'SuperSecretPassword!')
+    expect(SecurePage.flashMessage).to.contain('You logged into a secure area!')
+  })
 
-    it('displays warning message with invalid credentials', () => {
-        LoginPage.open();
-        LoginPage.loginFormFragment.loginWith('johndoe', 'InvalidPassword!');
-        expect(FlashMessageFragment.flashMessage).to.contain('Your username is invalid!');
-    });
-});
+  it('displays warning message with invalid credentials', () => {
+    LoginPage.open()
+    LoginPage.loginFormFragment.loginWith('johndoe', 'InvalidPassword!')
+    expect(FlashMessageFragment.flashMessage).to.contain('Your username is invalid!')
+  })
+})

@@ -1,5 +1,3 @@
-class MainPage {
+class MainPage {}
 
-}
-
-export default new MainPage();
+export default new MainPage()

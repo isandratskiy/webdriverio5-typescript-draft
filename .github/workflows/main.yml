@@ -10,22 +10,25 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
+    env:
+      SELENOID: 127.0.0.1
+      BROWSER_VERSION: 88.0
+
     steps:
       - uses: actions/checkout@v1
 
-      - name: Set workdir to browsers.json as mount
-        run: make workdir
+      - name: Configure browsers.json
+        run: npm run configure:browsers
 
       - name: Set up Selenoid Infrastructure
-        run: make setup
+        run: npm run selenoid:start
 
       - name: Run UI-Automation tests with Chrome browser
-        env:
-          SELENOID: '127.0.0.1'
         run: npm cit
 
       - name: Shutdown Selenoid Infrastructure
-        run: make stop
+        run: npm run selenoid:stop
 
       - name: Generate Allure Report
         if: always()
@@ -43,5 +46,5 @@ jobs:
       - name: Upload Allure Report
         uses: actions/upload-artifact@v2
         with:
-         name: allure report
-         path: ./allure-report
+          name: allure report
+          path: ./allure-report

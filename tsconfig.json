@@ -2,15 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "*": [
-        "./*"
-      ],
-      "src/*": [
-        "./src/*"
-      ],
-      "test/*": [
-        "./test/*"
-      ]
+      "*": ["./*"],
+      "src/*": ["./src/*"],
+      "test/*": ["./test/*"]
     },
     "target": "es6",
     "module": "commonjs",
@@ -19,7 +13,7 @@
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "types": ["@wdio/sync","mocha", "node"],
+    "types": ["@wdio/sync", "mocha", "node"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   }

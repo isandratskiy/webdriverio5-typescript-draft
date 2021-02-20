@@ -1,4 +1,4 @@
-version: "3.8"
+version: '3.8'
 
 networks:
   selenoid:
@@ -13,12 +13,18 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     command:
       [
-        "-conf", "/etc/selenoid/browsers.json",
-        "-service-startup-timeout", "5m0s",
-        "-session-attempt-timeout", "5m0s",
-        "-session-delete-timeout", "5m0s",
-        "-timeout", "5m0s",
-        "-container-network", "selenoid"
+        '-conf',
+        '/etc/selenoid/browsers.json',
+        '-service-startup-timeout',
+        '5m0s',
+        '-session-attempt-timeout',
+        '5m0s',
+        '-session-delete-timeout',
+        '5m0s',
+        '-timeout',
+        '5m0s',
+        '-container-network',
+        'selenoid',
       ]
     ports:
       - 4444:4444
@@ -32,10 +38,7 @@ services:
       - selenoid
     links:
       - selenoid
-    command:
-      [
-        "--selenoid-uri", "http://selenoid:4444"
-      ]
+    command: ['--selenoid-uri', 'http://selenoid:4444']
     ports:
       - 8081:8080
     networks:

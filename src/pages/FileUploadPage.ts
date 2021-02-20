@@ -1,27 +1,26 @@
-import {Page} from 'src/pages/Page';
+import { Page } from 'src/pages/Page'
 
 class FileUploadPage extends Page {
+  open() {
+    return super.open('/upload')
+  }
 
-    open() {
-        return super.open('/upload');
-    }
+  private get fileUploadInput() {
+    return $('#file-upload')
+  }
 
-    private get fileUploadInput() {
-        return $('#file-upload');
-    }
+  private get submitFileUpload() {
+    return $('#file-submit')
+  }
 
-    private get submitFileUpload() {
-        return $('#file-submit');
-    }
+  get uploadStatus(): string {
+    return $('h3').getText().trim()
+  }
 
-    get uploadStatus(): string {
-        return $('h3').getText().trim();
-    }
-
-    uploadFile(filePath: string): void {
-        this.fileUploadInput.setValue(filePath);
-        this.submitFileUpload.click();
-    }
+  uploadFile(filePath: string): void {
+    this.fileUploadInput.setValue(filePath)
+    this.submitFileUpload.click()
+  }
 }
 
-export default new FileUploadPage();
+export default new FileUploadPage()

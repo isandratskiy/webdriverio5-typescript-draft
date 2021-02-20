@@ -1,9 +1,9 @@
-import { FlashMessageFragment } from './fragments/FlashMessageFragment';
+import { FlashMessageFragment } from './fragments/FlashMessageFragment'
 
 class SecurePage {
-    get flashMessage(): string {
-        return new FlashMessageFragment().flashMessage;
-    }
+  get flashMessage(): string {
+    return new FlashMessageFragment().flashMessage
+  }
 }
 
-export default new SecurePage();
+export default new SecurePage()
