@@ -4,26 +4,26 @@
     "name" : "Windows page",
     "children" : [ {
       "name" : "should open new window tab after click",
-      "uid" : "c906ca1be286ca1d",
+      "uid" : "6f9c1c93ff41e37",
       "parentUid" : "fb93cdc21ea8b1b9fa5b8c5915e8d37d",
       "status" : "passed",
       "time" : {
-        "start" : 1613874282122,
-        "stop" : 1613874282664,
-        "duration" : 542
+        "start" : 1613960680072,
+        "stop" : 1613960680705,
+        "duration" : 633
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should contain 'New Window' title",
-      "uid" : "a3e71bd510408a38",
+      "uid" : "65e334edd39aca9b",
       "parentUid" : "fb93cdc21ea8b1b9fa5b8c5915e8d37d",
       "status" : "passed",
       "time" : {
-        "start" : 1613874284657,
-        "stop" : 1613874285259,
-        "duration" : 602
+        "start" : 1613960682536,
+        "stop" : 1613960683036,
+        "duration" : 500
       },
       "flaky" : false,
       "newFailed" : false,
@@ -34,26 +34,26 @@
     "name" : "Form Authentication",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "8586f6541a5833a8",
+      "uid" : "d255d6864dbfe914",
       "parentUid" : "84e32f934cced8d4d0cb8474aa6198ff",
       "status" : "passed",
       "time" : {
-        "start" : 1613874282166,
-        "stop" : 1613874283435,
-        "duration" : 1269
+        "start" : 1613960680153,
+        "stop" : 1613960681275,
+        "duration" : 1122
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "displays warning message with invalid credentials",
-      "uid" : "50f520340e21e988",
+      "uid" : "378c42cf87e974ab",
       "parentUid" : "84e32f934cced8d4d0cb8474aa6198ff",
       "status" : "passed",
       "time" : {
-        "start" : 1613874283435,
-        "stop" : 1613874284112,
-        "duration" : 677
+        "start" : 1613960681275,
+        "stop" : 1613960681913,
+        "duration" : 638
       },
       "flaky" : false,
       "newFailed" : false,
@@ -64,13 +64,13 @@
     "name" : "File upload",
     "children" : [ {
       "name" : "is successful",
-      "uid" : "57d81ebf05df5815",
+      "uid" : "8a050da3fa4ab14d",
       "parentUid" : "14cf0b9f789ec0d4d68aaf02aef8bebf",
       "status" : "passed",
       "time" : {
-        "start" : 1613874289142,
-        "stop" : 1613874289669,
-        "duration" : 527
+        "start" : 1613960686498,
+        "stop" : 1613960687038,
+        "duration" : 540
       },
       "flaky" : false,
       "newFailed" : false,
