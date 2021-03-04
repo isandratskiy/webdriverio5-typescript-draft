@@ -1,12 +1,12 @@
 {
-  "uid" : "c66a2b86b39dd439",
-  "name" : "should login with valid credentials",
-  "fullName" : "Form Authentication.should login with valid credentials",
-  "historyId" : "61d3618fc9465c15e8ef2732ee6e860d",
+  "uid" : "2a9b8b3c28316713",
+  "name" : "displays warning message with invalid credentials",
+  "fullName" : "Form Authentication.displays warning message with invalid credentials",
+  "historyId" : "7c739eba359b3e8bf935afdbafade6ff",
   "time" : {
-    "start" : 1614738464116,
-    "stop" : 1614738465487,
-    "duration" : 1371
+    "start" : 1614824923607,
+    "stop" : 1614824924230,
+    "duration" : 623
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "Open page: /login",
       "time" : {
-        "start" : 1614738464118,
-        "stop" : 1614738464118,
+        "start" : 1614824923607,
+        "stop" : 1614824923607,
         "duration" : 0
       },
       "status" : "passed",
@@ -32,10 +32,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Login as: tomsmith with password: SuperSecretPassword!",
+      "name" : "Login as: johndoe with password: InvalidPassword!",
       "time" : {
-        "start" : 1614738464702,
-        "stop" : 1614738464702,
+        "start" : 1614824923735,
+        "stop" : 1614824923735,
         "duration" : 0
       },
       "status" : "passed",
@@ -72,7 +72,7 @@
     "value" : "Form Authentication"
   }, {
     "name" : "testMethod",
-    "value" : "should login with valid credentials"
+    "value" : "displays warning message with invalid credentials"
   }, {
     "name" : "package",
     "value" : "Form Authentication"
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c66a2b86b39dd439.json",
+  "source" : "2a9b8b3c28316713.json",
   "parameterValues" : [ "chrome" ]
 }
