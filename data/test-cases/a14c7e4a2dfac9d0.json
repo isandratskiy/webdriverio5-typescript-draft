@@ -1,12 +1,12 @@
 {
-  "uid" : "678b68f38f39849f",
-  "name" : "is successful",
-  "fullName" : "File upload.is successful",
-  "historyId" : "e2c5a4b4a767801c7410b9e2886bddf0",
+  "uid" : "a14c7e4a2dfac9d0",
+  "name" : "displays warning message with invalid credentials",
+  "fullName" : "Form Authentication.displays warning message with invalid credentials",
+  "historyId" : "7c739eba359b3e8bf935afdbafade6ff",
   "time" : {
-    "start" : 1614824928903,
-    "stop" : 1614824929378,
-    "duration" : 475
+    "start" : 1614911391154,
+    "stop" : 1614911391896,
+    "duration" : 742
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,10 +17,25 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /upload",
+      "name" : "Open page: /login",
       "time" : {
-        "start" : 1614824928905,
-        "stop" : 1614824928905,
+        "start" : 1614911391155,
+        "stop" : 1614911391155,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Login as: johndoe with password: InvalidPassword!",
+      "time" : {
+        "start" : 1614911391275,
+        "stop" : 1614911391275,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,7 +49,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -48,19 +63,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "File upload"
+    "value" : "Form Authentication"
   }, {
     "name" : "testClass",
-    "value" : "File upload"
+    "value" : "Form Authentication"
   }, {
     "name" : "testMethod",
-    "value" : "is successful"
+    "value" : "displays warning message with invalid credentials"
   }, {
     "name" : "package",
-    "value" : "File upload"
+    "value" : "Form Authentication"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -78,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "678b68f38f39849f.json",
+  "source" : "a14c7e4a2dfac9d0.json",
   "parameterValues" : [ "chrome" ]
 }
