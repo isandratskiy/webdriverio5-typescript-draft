@@ -1,50 +1,50 @@
 [ {
-  "uid" : "a14c7e4a2dfac9d0",
-  "name" : "displays warning message with invalid credentials",
+  "uid" : "5b0b0b9336f4a505",
+  "name" : "should contain 'New Window' title",
   "time" : {
-    "start" : 1614911391154,
-    "stop" : 1614911391896,
-    "duration" : 742
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d54b85d3b9825bb",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1614911389978,
-    "stop" : 1614911391154,
-    "duration" : 1176
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8f178a824db93b60",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1614911390092,
-    "stop" : 1614911390647,
+    "start" : 1614997754876,
+    "stop" : 1614997755431,
     "duration" : 555
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b0c20ab252113750",
-  "name" : "is successful",
+  "uid" : "d39deee586f1289f",
+  "name" : "should open new window tab after click",
   "time" : {
-    "start" : 1614911397495,
-    "stop" : 1614911398063,
-    "duration" : 568
+    "start" : 1614997752098,
+    "stop" : 1614997752759,
+    "duration" : 661
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ba853727a742ede3",
-  "name" : "should contain 'New Window' title",
+  "uid" : "627171c0f4a5fbd5",
+  "name" : "displays warning message with invalid credentials",
   "time" : {
-    "start" : 1614911392883,
-    "stop" : 1614911393420,
-    "duration" : 537
+    "start" : 1614997753307,
+    "stop" : 1614997754016,
+    "duration" : 709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5214585927790848",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1614997759289,
+    "stop" : 1614997759820,
+    "duration" : 531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6115c5032cbc8ae",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1614997752160,
+    "stop" : 1614997753307,
+    "duration" : 1147
   },
   "status" : "passed",
   "severity" : "normal"
