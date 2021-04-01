@@ -1,12 +1,12 @@
 {
-  "uid" : "eb224cf0db323c24",
-  "name" : "should open new window tab after click",
-  "fullName" : "Windows page.should open new window tab after click",
-  "historyId" : "8455fb7a96f625e13779986a2c606186",
+  "uid" : "cb5ab3fe3294a23c",
+  "name" : "is successful",
+  "fullName" : "File upload.is successful",
+  "historyId" : "e2c5a4b4a767801c7410b9e2886bddf0",
   "time" : {
-    "start" : 1617158431506,
-    "stop" : 1617158432155,
-    "duration" : 649
+    "start" : 1617245012972,
+    "stop" : 1617245013503,
+    "duration" : 531
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,26 +17,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /windows",
+      "name" : "Open page: /upload",
       "time" : {
-        "start" : 1617158431511,
-        "stop" : 1617158431511,
+        "start" : 1617245012974,
+        "stop" : 1617245012974,
         "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "\"after each\" hook",
-      "time" : {
-        "start" : 1617158432155,
-        "stop" : 1617158434458,
-        "duration" : 2303
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,7 +34,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -63,19 +48,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-2"
   }, {
     "name" : "suite",
-    "value" : "Windows page"
+    "value" : "File upload"
   }, {
     "name" : "testClass",
-    "value" : "Windows page"
+    "value" : "File upload"
   }, {
     "name" : "testMethod",
-    "value" : "should open new window tab after click"
+    "value" : "is successful"
   }, {
     "name" : "package",
-    "value" : "Windows page"
+    "value" : "File upload"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -93,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "eb224cf0db323c24.json",
+  "source" : "cb5ab3fe3294a23c.json",
   "parameterValues" : [ "chrome" ]
 }
