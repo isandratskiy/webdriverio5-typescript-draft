@@ -1,50 +1,50 @@
 [ {
-  "uid" : "d409e3b1f04e3a19",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1617331609560,
-    "stop" : 1617331610123,
-    "duration" : 563
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f80a8cbe665d1820",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1617331602911,
-    "stop" : 1617331604055,
-    "duration" : 1144
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b5f18f8a31f5125c",
-  "name" : "should contain 'New Window' title",
-  "time" : {
-    "start" : 1617331604161,
-    "stop" : 1617331604801,
-    "duration" : 640
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15a2506495fc29ba",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1617331601257,
-    "stop" : 1617331601797,
-    "duration" : 540
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "885d715e4df7e25f",
+  "uid" : "b0f8b1dffce15c7c",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1617331601442,
-    "stop" : 1617331602911,
-    "duration" : 1469
+    "start" : 1617417569846,
+    "stop" : 1617417570880,
+    "duration" : 1034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9722c6ee52b904a4",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1617417575763,
+    "stop" : 1617417576619,
+    "duration" : 856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e31301b744f231b7",
+  "name" : "should contain 'New Window' title",
+  "time" : {
+    "start" : 1617417572048,
+    "stop" : 1617417572533,
+    "duration" : 485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5710b7f211e4915",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1617417569743,
+    "stop" : 1617417570214,
+    "duration" : 471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f16f9765f5496d66",
+  "name" : "displays warning message with invalid credentials",
+  "time" : {
+    "start" : 1617417570880,
+    "stop" : 1617417571498,
+    "duration" : 618
   },
   "status" : "passed",
   "severity" : "normal"
