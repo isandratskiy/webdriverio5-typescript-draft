@@ -21,19 +21,18 @@ jobs:
       - name: Configure browsers.json
         run: npm run configure:browsers
 
-      - name: Set up Selenoid Infrastructure
+      - name: Set up Selenoid
         run: npm run selenoid:start
 
-      - name: Run UI-Automation tests with Chrome browser
+      - name: Run UI Tests
         run: npm cit
 
-      - name: Shutdown Selenoid Infrastructure
+      - name: Shutdown Selenoid
         run: npm run selenoid:stop
 
       - name: Generate Allure Report
         if: always()
         run: npm run report-ci
-        continue-on-error: true
 
       - name: Deploy Allure Report
         if: always()
@@ -44,6 +43,7 @@ jobs:
           PUBLISH_DIR: ./allure-report
 
       - name: Upload Allure Report
+        if: always()
         uses: actions/upload-artifact@v2
         with:
           name: allure report
