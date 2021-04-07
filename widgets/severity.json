@@ -1,50 +1,50 @@
 [ {
-  "uid" : "84b64d0bc90dfb24",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1617676913240,
-    "stop" : 1617676913755,
-    "duration" : 515
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb6918237521803c",
+  "uid" : "401d3ea5ca7c4645",
   "name" : "displays warning message with invalid credentials",
   "time" : {
-    "start" : 1617676907661,
-    "stop" : 1617676908347,
-    "duration" : 686
+    "start" : 1617763359665,
+    "stop" : 1617763360236,
+    "duration" : 571
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f222dffb43b1906b",
-  "name" : "should contain 'New Window' title",
-  "time" : {
-    "start" : 1617676909096,
-    "stop" : 1617676909906,
-    "duration" : 810
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60b0ff1b377428d",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1617676906471,
-    "stop" : 1617676907021,
-    "duration" : 550
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "daac15b273ae2e9a",
+  "uid" : "bdf030c97a051db9",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1617676906556,
-    "stop" : 1617676907661,
-    "duration" : 1105
+    "start" : 1617763358540,
+    "stop" : 1617763359665,
+    "duration" : 1125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30a3c6193a7a1064",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1617763364457,
+    "stop" : 1617763364912,
+    "duration" : 455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99b65d07dd060f3d",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1617763358605,
+    "stop" : 1617763359060,
+    "duration" : 455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5031d637bc5fbdd5",
+  "name" : "should contain 'New Window' title",
+  "time" : {
+    "start" : 1617763361013,
+    "stop" : 1617763361450,
+    "duration" : 437
   },
   "status" : "passed",
   "severity" : "normal"
