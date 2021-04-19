@@ -1,50 +1,50 @@
 [ {
-  "uid" : "b7e067f0f1ea90e7",
-  "name" : "should contain 'New Window' title",
+  "uid" : "c25b9c3b27d598a5",
+  "name" : "displays warning message with invalid credentials",
   "time" : {
-    "start" : 1618726747227,
-    "stop" : 1618726747664,
-    "duration" : 437
+    "start" : 1618813196641,
+    "stop" : 1618813197372,
+    "duration" : 731
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c313f6bc2fa4eac1",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1618726744564,
-    "stop" : 1618726745651,
-    "duration" : 1087
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a05d8695f781c73e",
+  "uid" : "95d0569d100bcaf7",
   "name" : "is successful",
   "time" : {
-    "start" : 1618726751133,
-    "stop" : 1618726751619,
+    "start" : 1618813202094,
+    "stop" : 1618813202806,
+    "duration" : 712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ddd77d8d6a7e7f2",
+  "name" : "should contain 'New Window' title",
+  "time" : {
+    "start" : 1618813198034,
+    "stop" : 1618813198552,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ef5a1bd986b306",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1618813195487,
+    "stop" : 1618813195973,
     "duration" : 486
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d76986cd3498d4c9",
-  "name" : "should open new window tab after click",
+  "uid" : "d988940bc041b463",
+  "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1618726744544,
-    "stop" : 1618726745052,
-    "duration" : 508
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd1cc1db0dc73d56",
-  "name" : "displays warning message with invalid credentials",
-  "time" : {
-    "start" : 1618726745651,
-    "stop" : 1618726746326,
-    "duration" : 675
+    "start" : 1618813195533,
+    "stop" : 1618813196640,
+    "duration" : 1107
   },
   "status" : "passed",
   "severity" : "normal"
