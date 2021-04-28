@@ -13,7 +13,7 @@ jobs:
 
     env:
       SELENOID: '127.0.0.1'
-      BROWSER_VERSION: '88.0'
+      BROWSER_VERSION: '90.0'
 
     steps:
       - uses: actions/checkout@v1
