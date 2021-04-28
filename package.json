@@ -27,7 +27,7 @@
     "@wdio/sync": "^5.23.0",
     "allure-commandline": "^2.13.0",
     "chai": "^4.3.0",
-    "chromedriver": "^88.0.0",
+    "chromedriver": "^90.0.0",
     "mocha": "^8.3.0",
     "ts-node": "^9.1.1",
     "tsconfig-paths": "^3.9.0",
