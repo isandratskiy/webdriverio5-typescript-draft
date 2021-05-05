@@ -1,12 +1,12 @@
 {
-  "uid" : "dc103e43cdefc1a1",
-  "name" : "should login with valid credentials",
-  "fullName" : "Form Authentication.should login with valid credentials",
-  "historyId" : "61d3618fc9465c15e8ef2732ee6e860d",
+  "uid" : "fc26d85dd549f58c",
+  "name" : "is successful",
+  "fullName" : "File upload.is successful",
+  "historyId" : "e2c5a4b4a767801c7410b9e2886bddf0",
   "time" : {
-    "start" : 1620108935555,
-    "stop" : 1620108936651,
-    "duration" : 1096
+    "start" : 1620195358986,
+    "stop" : 1620195359459,
+    "duration" : 473
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,25 +17,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /login",
+      "name" : "Open page: /upload",
       "time" : {
-        "start" : 1620108935559,
-        "stop" : 1620108935559,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Login as: tomsmith with password: SuperSecretPassword!",
-      "time" : {
-        "start" : 1620108935993,
-        "stop" : 1620108935993,
+        "start" : 1620195358988,
+        "stop" : 1620195358988,
         "duration" : 0
       },
       "status" : "passed",
@@ -49,7 +34,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -63,19 +48,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-2"
   }, {
     "name" : "suite",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "testClass",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "testMethod",
-    "value" : "should login with valid credentials"
+    "value" : "is successful"
   }, {
     "name" : "package",
-    "value" : "Form Authentication"
+    "value" : "File upload"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -93,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dc103e43cdefc1a1.json",
+  "source" : "fc26d85dd549f58c.json",
   "parameterValues" : [ "chrome" ]
 }
