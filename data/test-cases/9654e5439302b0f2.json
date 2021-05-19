@@ -1,12 +1,12 @@
 {
-  "uid" : "c2d4652f28ebfb1a",
+  "uid" : "9654e5439302b0f2",
   "name" : "is successful",
   "fullName" : "File upload.is successful",
   "historyId" : "e2c5a4b4a767801c7410b9e2886bddf0",
   "time" : {
-    "start" : 1621318655091,
-    "stop" : 1621318655527,
-    "duration" : 436
+    "start" : 1621405105161,
+    "stop" : 1621405105586,
+    "duration" : 425
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "Open page: /upload",
       "time" : {
-        "start" : 1621318655093,
-        "stop" : 1621318655093,
+        "start" : 1621405105162,
+        "stop" : 1621405105162,
         "duration" : 0
       },
       "status" : "passed",
@@ -78,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c2d4652f28ebfb1a.json",
+  "source" : "9654e5439302b0f2.json",
   "parameterValues" : [ "chrome" ]
 }
