@@ -1,12 +1,12 @@
 {
-  "uid" : "afbfae29af479a6f",
-  "name" : "should login with valid credentials",
-  "fullName" : "Form Authentication.should login with valid credentials",
-  "historyId" : "61d3618fc9465c15e8ef2732ee6e860d",
+  "uid" : "4504216dee5ef7fa",
+  "name" : "should open new window tab after click",
+  "fullName" : "Windows page.should open new window tab after click",
+  "historyId" : "8455fb7a96f625e13779986a2c606186",
   "time" : {
-    "start" : 1621924093136,
-    "stop" : 1621924094135,
-    "duration" : 999
+    "start" : 1622010955200,
+    "stop" : 1622010955700,
+    "duration" : 500
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,10 +17,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page: /login",
+      "name" : "Open page: /windows",
       "time" : {
-        "start" : 1621924093137,
-        "stop" : 1621924093137,
+        "start" : 1622010955202,
+        "stop" : 1622010955202,
         "duration" : 0
       },
       "status" : "passed",
@@ -32,11 +32,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Login as: tomsmith with password: SuperSecretPassword!",
+      "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1621924093453,
-        "stop" : 1621924093453,
-        "duration" : 0
+        "start" : 1622010955701,
+        "stop" : 1622010957849,
+        "duration" : 2148
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,19 +63,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "testClass",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "testMethod",
-    "value" : "should login with valid credentials"
+    "value" : "should open new window tab after click"
   }, {
     "name" : "package",
-    "value" : "Form Authentication"
+    "value" : "Windows page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "afbfae29af479a6f.json",
+  "source" : "4504216dee5ef7fa.json",
   "parameterValues" : [ "chrome" ]
 }
