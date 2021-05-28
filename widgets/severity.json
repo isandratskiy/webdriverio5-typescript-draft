@@ -1,50 +1,50 @@
 [ {
-  "uid" : "3f060f23ef1d1988",
-  "name" : "should contain 'New Window' title",
-  "time" : {
-    "start" : 1622097746388,
-    "stop" : 1622097746855,
-    "duration" : 467
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ee50aa18275ad37",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1622097744380,
-    "stop" : 1622097745278,
-    "duration" : 898
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b70b057fa7f89d0",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1622097744325,
-    "stop" : 1622097744729,
-    "duration" : 404
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d99808b01f356cd6",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1622097749975,
-    "stop" : 1622097750416,
-    "duration" : 441
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a5051529c9ff74b",
+  "uid" : "15810bd1b438d1e9",
   "name" : "displays warning message with invalid credentials",
   "time" : {
-    "start" : 1622097745278,
-    "stop" : 1622097745827,
-    "duration" : 549
+    "start" : 1622185400929,
+    "stop" : 1622185401543,
+    "duration" : 614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "365b552ecaf89549",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1622185400320,
+    "stop" : 1622185400747,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5384e1cf6556678e",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1622185400087,
+    "stop" : 1622185400929,
+    "duration" : 842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db1b37a8c57f6feb",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1622185405878,
+    "stop" : 1622185406312,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cd665cf41e35e35",
+  "name" : "should contain 'New Window' title",
+  "time" : {
+    "start" : 1622185402487,
+    "stop" : 1622185402936,
+    "duration" : 449
   },
   "status" : "passed",
   "severity" : "normal"
