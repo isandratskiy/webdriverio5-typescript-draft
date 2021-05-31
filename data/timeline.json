@@ -4,26 +4,26 @@
     "name" : "0-1",
     "children" : [ {
       "name" : "should contain 'New Window' title",
-      "uid" : "63c60b2cba005bd3",
+      "uid" : "5e3e6f012bc7dba5",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1622358676226,
-        "stop" : 1622358676681,
-        "duration" : 455
+        "start" : 1622445608641,
+        "stop" : 1622445609127,
+        "duration" : 486
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should open new window tab after click",
-      "uid" : "58be03e9bb2eabcf",
+      "uid" : "d3df19d9cee0eb08",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1622358673888,
-        "stop" : 1622358674336,
-        "duration" : 448
+        "start" : 1622445606418,
+        "stop" : 1622445606832,
+        "duration" : 414
       },
       "flaky" : false,
       "newFailed" : false,
@@ -33,27 +33,27 @@
   }, {
     "name" : "0-0",
     "children" : [ {
-      "name" : "displays warning message with invalid credentials",
-      "uid" : "d6638e51095d3396",
+      "name" : "should login with valid credentials",
+      "uid" : "28ed82522a9b1964",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1622358674998,
-        "stop" : 1622358675626,
-        "duration" : 628
+        "start" : 1622445606360,
+        "stop" : 1622445607409,
+        "duration" : 1049
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "should login with valid credentials",
-      "uid" : "19fc261b3a90ce46",
+      "name" : "displays warning message with invalid credentials",
+      "uid" : "d769c6b0703433dc",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1622358674011,
-        "stop" : 1622358674997,
-        "duration" : 986
+        "start" : 1622445607409,
+        "stop" : 1622445607985,
+        "duration" : 576
       },
       "flaky" : false,
       "newFailed" : false,
@@ -64,13 +64,13 @@
     "name" : "0-2",
     "children" : [ {
       "name" : "is successful",
-      "uid" : "aaf3fd128ea3babd",
+      "uid" : "1a0feaf11562d0bc",
       "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1622358680458,
-        "stop" : 1622358680913,
-        "duration" : 455
+        "start" : 1622445612523,
+        "stop" : 1622445612938,
+        "duration" : 415
       },
       "flaky" : false,
       "newFailed" : false,
