@@ -1,50 +1,50 @@
 [ {
-  "uid" : "a06c2d67ee4f85b8",
-  "name" : "should open new window tab after click",
-  "time" : {
-    "start" : 1622620121145,
-    "stop" : 1622620121557,
-    "duration" : 412
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12dd58a2e215bfe2",
-  "name" : "is successful",
-  "time" : {
-    "start" : 1622620126761,
-    "stop" : 1622620127188,
-    "duration" : 427
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba6cf2b902d89ff9",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1622620121273,
-    "stop" : 1622620122164,
-    "duration" : 891
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "182ced0ba5751214",
-  "name" : "should contain 'New Window' title",
-  "time" : {
-    "start" : 1622620123216,
-    "stop" : 1622620123691,
-    "duration" : 475
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6901f2160f9bb050",
+  "uid" : "7b6f378d767ff405",
   "name" : "displays warning message with invalid credentials",
   "time" : {
-    "start" : 1622620122165,
-    "stop" : 1622620122732,
-    "duration" : 567
+    "start" : 1622704949416,
+    "stop" : 1622704950011,
+    "duration" : 595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34e8221547a9d2ef",
+  "name" : "should contain 'New Window' title",
+  "time" : {
+    "start" : 1622704950700,
+    "stop" : 1622704951191,
+    "duration" : 491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f7c31213aa6ce0a",
+  "name" : "is successful",
+  "time" : {
+    "start" : 1622704954587,
+    "stop" : 1622704955128,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90f1c6031179063",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1622704948475,
+    "stop" : 1622704949416,
+    "duration" : 941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1490950afb241ab7",
+  "name" : "should open new window tab after click",
+  "time" : {
+    "start" : 1622704948364,
+    "stop" : 1622704948787,
+    "duration" : 423
   },
   "status" : "passed",
   "severity" : "normal"
