@@ -1,12 +1,12 @@
 {
-  "uid" : "7f685e7644ba65be",
+  "uid" : "58c093e970bc9284",
   "name" : "displays warning message with invalid credentials",
   "fullName" : "Form Authentication.displays warning message with invalid credentials",
   "historyId" : "7c739eba359b3e8bf935afdbafade6ff",
   "time" : {
-    "start" : 1628707937366,
-    "stop" : 1628707938393,
-    "duration" : 1027
+    "start" : 1628748992217,
+    "stop" : 1628748992817,
+    "duration" : 600
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "Open page: /login",
       "time" : {
-        "start" : 1628707937366,
-        "stop" : 1628707937366,
+        "start" : 1628748992218,
+        "stop" : 1628748992218,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,8 +34,8 @@
     }, {
       "name" : "Login as: johndoe with password: InvalidPassword!",
       "time" : {
-        "start" : 1628707937547,
-        "stop" : 1628707937547,
+        "start" : 1628748992341,
+        "stop" : 1628748992341,
         "duration" : 0
       },
       "status" : "passed",
@@ -93,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7f685e7644ba65be.json",
+  "source" : "58c093e970bc9284.json",
   "parameterValues" : [ "chrome" ]
 }
